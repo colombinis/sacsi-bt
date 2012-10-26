@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<logerrorapp>
+  <fila>
+    <hora>01/01/2004</hora>
+    <titulo>Titulo del error</titulo>
+    <dscError>la descripcion del error</dscError>
+  </fila>
+  <fila>
+    <hora>20/02/2008 19:18:45</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>20/02/2008 19:19:58</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Error: en el proceso de envio por correo. Acceso denegado a la ruta de acceso "c:\inetpub\wwwroot\bolsaTrabajo\public\CurrV\aEnviar.zip".</dscError>
+  </fila>
+  <fila>
+    <hora>20/02/2008 19:23:40</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>20/02/2008 19:24:18</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Error: en el proceso de envio por correo. Acceso denegado a la ruta de acceso "c:\inetpub\wwwroot\bolsaTrabajo\public\CurrV\aEnviar.zip".</dscError>
+  </fila>
+  <fila>
+    <hora>20/02/2008 19:24:37</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>20/02/2008 19:24:56</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Error: en el proceso de envio por correo. Acceso denegado a la ruta de acceso "c:\inetpub\wwwroot\bolsaTrabajo\public\CurrV\aEnviar.zip".</dscError>
+  </fila>
+  <fila>
+    <hora>20/02/2008 19:25:15</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>20/02/2008 19:29:54</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>20/02/2008 19:30:08</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>20/02/2008 19:31:04</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>20/02/2008 19:31:28</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+</logerrorapp>

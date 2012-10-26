@@ -1,0 +1,30 @@
+================================================================================
+Para mi
+
+)realizar el proceso de armado del email con lo CV para enviarselos a la empresa
+
+)si el alumno es rechazado tiene que ver el motivo
+
+) armar el proceso de verificacion de datos para controlados
+
+) hacer un control de usuario con los datos de la empresa para reutilizar
+) Agregar en la parte de documentación la fecha de firma del convenio de pasantías
+) Si está refrendado por el Rector
+) En la parte del pasante de una empresa agregar un campo para poner las tareas que desarrolla el pasante.
+) realizar el ingreso de fechas por un calendario estilo popup
+
+) verificar correcto funcionamiento de la subida del CV
+) Revisar la Paginacion/srollable las grillas
+) implementar funcionalidad calendario popup en datos tipos fechas
+) verificar estetica cossbrowser
+
+================================================================================
+Para Alejandro
+
+Estoy necesitando que me envien cuando puedan, lo siguiente:
+
+1)un ejemplo de un refrendo
+2)ejemplo de la planilla que se envia a tesoreria y saber si se sigue haciendo
+) determinar por tipo de empresa la documentacion a presentar.
+) Definir cuales son los datos requeridos del Postulante
+) en caso de que no exista el usuario de email, colocar ayuda con el tramite a realizar

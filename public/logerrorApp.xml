@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<logerrorapp>
+  <fila>
+    <hora>01/01/2004</hora>
+    <titulo>Titulo del error</titulo>
+    <dscError>la descripcion del error</dscError>
+  </fila>
+  <fila>
+    <hora>08/02/2008 17:17:24</hora>
+    <titulo>Error</titulo>
+    <dscError>Error: en el inicio de sesion de usuario</dscError>
+  </fila>
+  <fila>
+    <hora>08/02/2008 17:17:48</hora>
+    <titulo>Error</titulo>
+    <dscError>Error: en el inicio de sesion de usuario</dscError>
+  </fila>
+  <fila>
+    <hora>08/02/2008 17:18:11</hora>
+    <titulo>Error</titulo>
+    <dscError>Error: en el inicio de sesion de usuario</dscError>
+  </fila>
+  <fila>
+    <hora>18/02/2008 17:25:01</hora>
+    <titulo>strSql</titulo>
+    <dscError>El servidor SQL Server no existe o se ha denegado el acceso.</dscError>
+  </fila>
+  <fila>
+    <hora>18/02/2008 17:25:31</hora>
+    <titulo>strSql</titulo>
+    <dscError>El servidor SQL Server no existe o se ha denegado el acceso.</dscError>
+  </fila>
+  <fila>
+    <hora>18/02/2008 17:44:06</hora>
+    <titulo>strSql</titulo>
+    <dscError>El servidor SQL Server no existe o se ha denegado el acceso.</dscError>
+  </fila>
+  <fila>
+    <hora>18/02/2008 17:44:06</hora>
+    <titulo>Error</titulo>
+    <dscError>Error: No se pudo conectar con la base de datos.</dscError>
+  </fila>
+  <fila>
+    <hora>29/02/2008 17:31:38</hora>
+    <titulo>strSql</titulo>
+    <dscError>El servidor SQL Server no existe o se ha denegado el acceso.</dscError>
+  </fila>
+</logerrorapp>

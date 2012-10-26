@@ -1,0 +1,1054 @@
+<?xml version="1.0" standalone="yes"?>
+<logerrorapp>
+  <fila>
+    <hora>01/01/2004</hora>
+    <titulo>Titulo del error</titulo>
+    <dscError>la descripcion del error</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:01:41</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:01:41</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:01:42</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:01:42</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:01:43</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:01:43</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Error: en el proceso de envio por correo. Could not continue scan with NOLOCK due to data movement.
+Could not continue scan with NOLOCK due to data movement.
+Could not continue scan with NOLOCK due to data movement.
+Could not continue scan with NOLOCK due to data movement.</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:01:44</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:01:44</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:01:45</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:01:45</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:01:45</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:04:04</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:04:05</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:04:06</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:04:06</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:04:06</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:04:06</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Error: en el proceso de envio por correo. Could not continue scan with NOLOCK due to data movement.
+Could not continue scan with NOLOCK due to data movement.
+Could not continue scan with NOLOCK due to data movement.
+Could not continue scan with NOLOCK due to data movement.</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:04:08</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:04:08</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:04:09</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:04:09</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:04:09</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:10:52</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:10:52</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:10:54</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:10:54</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:10:54</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:14:03</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:14:03</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:14:04</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:14:04</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:14:04</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:14:36</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:14:36</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:14:37</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:14:37</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:14:37</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:15:03</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:15:03</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:15:04</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:15:04</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>19/12/2007 18:15:04</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:01:57</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:01:57</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:01:58</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:01:59</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:01:59</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:02:49</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:02:49</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:02:50</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:02:50</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:02:51</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:02:58</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:02:58</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:02:59</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:02:59</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:02:59</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:03:18</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:03:18</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:03:19</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:03:19</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:03:20</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:03:28</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:03:28</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Error: en el proceso de envio por correo. No hay postulantes con datos validos para enviar por email</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:03:40</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:03:40</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:03:41</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:03:41</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>20/12/2007 20:03:42</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:15:21</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:15:22</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:15:23</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:15:23</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:15:24</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:16:12</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:16:12</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:16:13</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:16:13</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:16:13</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:17:40</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:17:40</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:17:41</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:17:41</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:17:42</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:18:28</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:18:28</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:18:29</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:18:29</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:18:39</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:27</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:27</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:28</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:28</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:28</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:33</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:33</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:34</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:34</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:34</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:57</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:57</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:58</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:58</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:19:59</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:20:19</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:20:19</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:20:20</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:20:20</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:20:20</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:20:35</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:20:35</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:20:36</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:20:36</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:20:36</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:21:10</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>26/12/2007 15:21:10</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Error: en el proceso de envio por correo. No hay postulantes con datos validos para enviar por email</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:28:57</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:28:58</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:28:59</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:28:59</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:29:00</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:29:27</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:29:27</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:29:28</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:29:28</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:29:28</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:01</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:01</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:02</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:02</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:02</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:12</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:12</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:13</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:13</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:13</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:32</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:32</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Error: en el proceso de envio por correo. No hay postulantes con datos validos para enviar por email</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:40</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:40</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:41</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:41</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:42</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:50</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:50</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:51</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:51</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>28/12/2007 14:30:52</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:17:15</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:17:16</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:17:17</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:17:17</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:17:18</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:18:10</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:18:10</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:18:11</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:18:11</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:18:11</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:19:40</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:19:40</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:19:41</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:19:41</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:19:41</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:20:14</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:20:14</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:20:16</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:20:16</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>23/01/2008 19:20:16</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:10:48</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:10:48</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:10:49</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:10:49</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:10:51</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:21:37</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:21:37</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:21:38</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:21:38</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:21:39</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:22:34</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:22:35</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:22:36</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:22:36</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>24/01/2008 20:22:36</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:17:25</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:17:25</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:17:26</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:17:26</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:17:26</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:19:39</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:19:39</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:19:40</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:19:40</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:19:40</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:21:28</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:21:29</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:21:30</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:21:30</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:21:30</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:21:42</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:21:42</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:21:43</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:21:43</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 18:21:43</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 20:01:47</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>1- Borrar carpeta</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 20:01:47</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>3-Zipeo la carpeta a enviar con todos los CVs</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 20:01:48</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del Dim msg As New MailMessage</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 20:01:48</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>antes del SmtpMail.Send(msg)</dscError>
+  </fila>
+  <fila>
+    <hora>25/01/2008 20:01:48</hora>
+    <titulo>ProcesoEnvio</titulo>
+    <dscError>Justo despues del SmtpMail.Send(msg)</dscError>
+  </fila>
+</logerrorapp>

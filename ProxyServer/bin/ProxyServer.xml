@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ProxyServer
+</name>
+</assembly>
+<members>
+<member name="M:ProxyServer.mServer.CuentaValida(System.String,System.String,System.String@)">
+Public Function Liberar()
+  'objetivo: libera los recursos
+  If Not _networkStream Is Nothing Then _networkStream.Close()
+  If Not _tcpClient Is Nothing Then _tcpClient.Close()
+End Function
+
+</member>
+</members>
+</doc>

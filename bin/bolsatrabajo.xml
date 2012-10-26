@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bolsatrabajo
+</name>
+</assembly>
+<members>
+<member name="M:bolsatrabajo.lstDatosP.RefrescarGrilla">
+Private Sub btnNew_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnNew.Click
+  Response.Redirect("detDatosP.aspx")
+End Sub
+
+</member><member name="M:bolsatrabajo.lstDatosP.cboBusqueda_SelectedIndexChanged(System.Object,System.EventArgs)">
+Private Sub MostrarOcultar(ByVal selector As String, ByVal valor As Boolean)
+  ''''oculto o muestro selectivamente
+  '''Select Case selector.ToUpper
+  '''  Case ""
+  '''    'van siempre deshabilitados
+  '''    'Me.txtCuit.Enabled = valor
+  '''End Select
+End Sub
+
+</member><member name="M:bolsatrabajo.lstDatosP.ColocarMensaje(System.String,System.Int32)">
+Private Sub ColocarMensaje(ByVal texto As String)
+  'coloco el mensaje de error
+  lblError.Text = texto
+  lblError.Visible = True
+End Sub
+
+</member><member name="M:bolsatrabajo.filtroPostulantes.CargoRecuros(System.String)">
+Private Sub RefrescarGrilla()
+  'en el onchange del legajo y del combo de la pasantia
+  Dim legajo As Integer = 0
+  Dim busqueda As Integer = 0
+  Me.LoadList(legajo, busqueda)
+End Sub
+
+</member><member name="M:bolsatrabajo.lstBPost.cmdBuscar_Click(System.Object,System.EventArgs)">
+End Sub
+
+</member><member name="M:bolsatrabajo.ucDatosPost.CargoRecuros(System.String)">
+Private Sub btnCancel_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCancel.Click
+  Response.Redirect("lstDatosP.aspx")
+End Sub
+
+</member><member name="M:bolsatrabajo.ucDatosPost.guardarCV(System.Int32,System.String)">
+Private Sub btnModificarConocimientos_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnModificarConocimientos.Click
+  'voy a la pantalla de los conocimientos tecnicos
+  Dim idPostulante As Integer = Val(ViewState("idPostulante"))
+  If idPostulante &gt; 0 Then
+    Response.Redirect("ct.aspx")
+  Else
+    Me.ColocarMensaje(1, "No se pudo recuperar el codigo")
+  End If
+End Sub
+
+</member>
+</members>
+</doc>

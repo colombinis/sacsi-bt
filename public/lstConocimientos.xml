@@ -1,0 +1,4 @@
+<SELECT id="cboConocimiento" name="cboConocimiento">
+		<OPTION value="1">Conocimiento A</OPTION>
+		<OPTION value="2">Conocimiento B</OPTION>
+</SELECT>

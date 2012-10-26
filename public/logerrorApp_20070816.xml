@@ -1,0 +1,2928 @@
+<?xml version="1.0" standalone="yes"?>
+<logerrorapp>
+  <fila>
+    <hora>01/01/2004</hora>
+    <titulo>Titulo del error</titulo>
+    <dscError>la descripcion del error</dscError>
+  </fila>
+  <fila>
+    <hora>22/06/2007 17:56:02</hora>
+    <titulo>Error</titulo>
+    <dscError>Error:No connection could be made because the target machine actively refused it</dscError>
+  </fila>
+  <fila>
+    <hora>22/06/2007 18:15:40</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>22/06/2007 18:27:04</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>27/06/2007 20:18:52</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>27/06/2007 20:19:00</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>27/06/2007 20:19:21</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>27/06/2007 20:31:11</hora>
+    <titulo>strSql</titulo>
+    <dscError>Violation of PRIMARY KEY constraint 'PK_tbl_conocimiento_x_postulante'. Cannot insert duplicate key in object 'tbl_conocimiento_x_postulante'.
+The statement has been terminated.</dscError>
+  </fila>
+  <fila>
+    <hora>02/07/2007 17:11:32</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>10/07/2007 10:55:50</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>11/07/2007 9:49:24</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>11/07/2007 9:59:33</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>11/07/2007 11:27:17</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>11/07/2007 11:34:02</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>12/07/2007 9:59:37</hora>
+    <titulo>strSql</titulo>
+    <dscError>INSERT statement conflicted with COLUMN FOREIGN KEY constraint 'FK_tbl_empresa_tbl_tipoEmpresa'. The conflict occurred in database 'db_bolsatrabajo', table 'tbl_tipoEmpresa', column 'idTipoEmpresa'.
+The statement has been terminated.</dscError>
+  </fila>
+  <fila>
+    <hora>12/07/2007 9:59:37</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>12/07/2007 9:59:49</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>12/07/2007 10:05:38</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>12/07/2007 10:10:02</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>12/07/2007 10:59:06</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>12/07/2007 11:17:07</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>12/07/2007 11:52:00</hora>
+    <titulo>strSql</titulo>
+    <dscError>INSERT statement conflicted with COLUMN FOREIGN KEY constraint 'FK_tbl_empresa_tbl_tipoEmpresa'. The conflict occurred in database 'db_bolsatrabajo', table 'tbl_tipoEmpresa', column 'idTipoEmpresa'.
+The statement has been terminated.</dscError>
+  </fila>
+  <fila>
+    <hora>12/07/2007 11:52:00</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>12/07/2007 11:52:25</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>12/07/2007 12:07:24</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>13/07/2007 10:08:23</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>06/08/2007 20:29:45</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>13/08/2007 18:11:04</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>13/08/2007 18:12:14</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>13/08/2007 18:13:02</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>13/08/2007 18:13:07</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>13/08/2007 18:15:46</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>13/08/2007 18:20:21</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>13/08/2007 18:31:35</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 0:58:20</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 0:59:00</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 7:49:20</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 7:50:08</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 8:05:06</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 8:42:22</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 8:43:04</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 8:43:18</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 8:43:32</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 8:49:51</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 8:53:27</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:09:24</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:14:00</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:23:03</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:23:27</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:24:46</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:24:56</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:27:04</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:29:09</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:31:04</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:40:55</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:44:43</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>Datos de la sesion no se pudieron recuperar.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:50:59</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:51:00</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:51:14</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 9:51:19</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 10:01:24</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 10:03:08</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 10:03:23</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 10:07:24</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 10:09:26</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 10:21:52</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 10:30:32</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 10:30:52</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 10:36:36</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 10:37:16</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 10:45:47</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 10:46:05</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 10:48:06</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 10:53:26</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:29:24</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:31:46</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:38:11</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:38:33</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:39:45</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:39:57</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:40:10</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:40:16</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:40:30</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:40:59</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:42:39</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:47:20</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:47:53</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:51:34</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:51:49</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:54:17</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 11:54:42</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:02:49</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:04:51</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:05:13</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:05:58</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:07:55</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:09:01</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:09:12</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:09:18</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:10:34</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:10:41</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:10:47</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:11:04</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:37:50</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:38:16</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:40:08</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:54:27</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 12:54:58</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 13:05:05</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 13:05:21</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 13:08:24</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 13:16:11</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 13:20:11</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 13:45:53</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 13:47:13</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 13:48:43</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 14:29:24</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 14:29:47</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 14:30:17</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 14:30:34</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 14:34:38</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 14:34:50</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 14:34:58</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 14:35:05</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 14:35:10</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 14:35:18</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 14:54:39</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 14:55:27</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:17:26</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:20:52</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:23:38</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:24:36</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:38:17</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:38:48</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:39:13</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:39:27</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:39:43</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:40:09</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:40:58</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:41:31</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:41:45</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:41:59</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:42:18</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:42:36</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:42:41</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:42:55</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:43:07</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:43:42</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:43:55</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:44:37</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:46:58</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:47:27</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:56:54</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 15:57:13</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 16:07:40</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 17:12:41</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 17:14:02</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 17:14:13</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 17:14:34</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 17:39:14</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 17:39:34</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 17:57:29</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:11:20</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:24:58</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:25:08</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:25:15</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:25:28</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:25:34</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:25:36</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:25:39</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:25:42</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:25:45</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:25:49</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:26:02</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:26:24</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:26:31</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:26:39</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:26:46</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:26:53</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:26:59</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:29:34</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:29:59</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:30:03</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:31:30</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:31:48</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>Datos de la sesion no se pudieron recuperar.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:36:22</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:36:31</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:36:39</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:36:40</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:36:41</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:37:15</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:37:27</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:41:39</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:43:37</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:45:24</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 18:45:54</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 19:03:21</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 19:22:11</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 19:24:37</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 19:24:51</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 19:24:52</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 19:26:16</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 19:26:32</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 19:30:29</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 19:30:41</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 19:38:41</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 19:39:35</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 19:43:14</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 19:44:14</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 19:50:32</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:00:02</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:03:18</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:04:31</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:05:38</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:05:41</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:06:15</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:06:51</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:07:06</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:08:21</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:08:32</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:09:27</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:10:39</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:10:58</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:13:09</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:14:24</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:15:57</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:16:19</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>Datos de la sesion no se pudieron recuperar.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:16:23</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:16:26</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:16:28</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:16:30</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>Datos de la sesion no se pudieron recuperar.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:16:40</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:17:00</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:17:17</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:17:20</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:17:20</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:17:20</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:17:25</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:17:25</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:17:25</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:17:37</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:17:37</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:17:37</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:18:20</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:19:31</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:19:57</hora>
+    <titulo>strSql</titulo>
+    <dscError>INSERT statement conflicted with COLUMN FOREIGN KEY constraint 'FK_tbl_busqueda_tbl_vinculo'. The conflict occurred in database 'db_bolsatrabajo', table 'tbl_vinculo', column 'idVinculo'.
+The statement has been terminated.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:24:31</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:24:34</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:24:39</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:25:46</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :sae</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:30:10</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:31:14</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:31:17</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:31:22</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:31:27</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:31:29</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:31:33</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:31:45</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:31:58</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:33:20</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:35:27</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:40:26</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:47:15</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 20:47:21</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:02:54</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:13:55</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:14:35</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:17:46</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:18:44</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:18:59</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:18:59</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:18:59</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:20:00</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:20:00</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:20:00</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:20:52</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:24:19</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:24:40</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:29:47</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:33:33</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:34:21</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:45:53</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:49:18</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:49:35</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:52:04</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:53:31</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:54:16</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:55:22</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:55:47</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:56:09</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:56:24</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:56:33</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:57:36</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 21:59:21</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:00:34</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:00:47</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:07:50</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:15:26</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:33:32</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:34:23</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:34:45</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:35:32</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:37:38</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:46:25</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:46:56</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:47:09</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:48:14</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:48:23</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:48:35</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:48:58</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:50:27</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:53:51</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:55:50</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 22:56:00</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 23:03:52</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 23:05:55</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 23:08:11</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 23:08:25</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 23:16:19</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 23:17:17</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 23:28:54</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 23:29:12</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 23:29:13</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 23:29:24</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 23:31:37</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>15/08/2007 23:32:58</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 0:08:00</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 0:12:19</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 0:13:18</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 0:17:07</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 0:32:31</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 0:34:36</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 0:34:47</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 3:19:03</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 3:19:15</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 3:20:55</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 8:13:15</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 8:57:00</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 8:57:01</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:00:00</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:00:05</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:00:15</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:06:41</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:06:58</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:08:25</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:16:03</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:16:29</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:16:40</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:17:06</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:17:07</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:18:52</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:20:56</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:21:56</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:25:29</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:27:51</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:27:51</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:27:51</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:28:09</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:28:09</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:28:09</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:28:17</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:28:17</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:28:17</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:28:31</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:28:31</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:28:31</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:29:09</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:29:09</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:29:10</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:25</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:25</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:25</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:34</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:34</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:34</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:48</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:48</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:48</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:54</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:54</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:54</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:59</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:59</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:30:59</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:31:04</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:31:04</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:31:04</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:31:10</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:31:10</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'ORDER'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:31:10</hora>
+    <titulo>strSqlSysAcad</titulo>
+    <dscError>Incorrect syntax near the keyword 'AND'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:31:23</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:31:50</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:37:25</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:37:54</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:38:12</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:49:09</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:49:30</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:49:56</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:50:21</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:50:41</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:51:06</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:51:13</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:51:20</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:51:56</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 9:53:01</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:00:31</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:02:12</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:02:22</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:02:38</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:03:02</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:03:23</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:22:19</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:22:34</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:35:40</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:42:33</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:43:05</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:50:13</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:50:33</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:50:42</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:51:20</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:58:07</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 10:59:03</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:02:55</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:03:17</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:03:18</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:03:18</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:04:10</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:05:29</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:07:13</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:10:05</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:10:21</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:10:22</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:16:05</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:16:16</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:19:32</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:25:23</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:25:31</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:26:07</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:26:57</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:29:38</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:37:04</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 11:49:43</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:06:03</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:06:59</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:07:18</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:08:46</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:09:20</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:09:26</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:09:42</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:09:50</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:10:02</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:10:05</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:10:12</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:10:17</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:10:20</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:10:30</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:11:48</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:12:43</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:14:33</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:14:40</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:15:43</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:15:59</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:16:04</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:16:11</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:16:21</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:18:44</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:21:52</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:24:28</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:24:42</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:24:47</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:24:56</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:25:18</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:25:28</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:34:02</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:34:49</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 12:44:55</hora>
+    <titulo>strSql</titulo>
+    <dscError>Line 1: Incorrect syntax near ')'.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:01:33</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:01:47</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:03:28</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:04:38</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:09:37</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:09:51</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:09:58</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:10:42</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:10:46</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:10:51</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:11:13</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:14:02</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:16:27</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:17:49</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:17:58</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:19:02</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:24:01</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:25:52</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 13:26:48</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:04:36</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:09:19</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:14:07</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:14:36</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:29:08</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:29:26</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:42:52</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:45:08</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:45:35</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:47:38</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:48:20</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:51:26</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:51:53</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:52:26</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:55:14</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:58:05</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:59:00</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 14:59:51</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 15:00:18</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 15:00:31</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 15:01:27</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 15:02:17</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 15:05:23</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 15:10:35</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 15:10:50</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 15:12:19</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 15:16:33</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 15:27:40</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 15:28:20</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 15:30:14</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 15:30:22</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 15:41:25</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 16:08:26</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 16:11:00</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 16:18:01</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 16:30:02</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 16:30:40</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 16:32:00</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 16:33:54</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 16:33:56</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 16:38:56</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 16:38:57</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 16:39:11</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 16:40:03</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 16:42:26</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 16:42:53</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 17:07:08</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 17:12:25</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 17:13:10</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 17:13:59</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 17:14:11</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 17:16:00</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 17:19:44</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 17:22:37</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 17:23:28</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 17:34:22</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 17:34:29</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 17:49:46</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:12:47</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:13:26</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:14:05</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:14:09</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:14:38</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:14:46</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:14:55</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:15:50</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:16:03</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:27:13</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:27:44</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:27:59</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:29:32</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:29:56</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:30:08</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:32:29</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:33:55</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:36:23</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:44:22</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 18:50:36</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 19:05:54</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 19:06:19</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 19:14:13</hora>
+    <titulo>Error ucDatosPost - load:</titulo>
+    <dscError>No se pudo recuperar los datos de origen, al ingresar a esta seccion. DirPadre :postulante</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 19:17:37</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 19:21:27</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 19:41:06</hora>
+    <titulo>Error</titulo>
+    <dscError>Cannot use a leading .. to exit above the top directory.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 19:44:25</hora>
+    <titulo>strSql</titulo>
+    <dscError>INSERT statement conflicted with COLUMN FOREIGN KEY constraint 'FK_tbl_busqueda_tbl_vinculo'. The conflict occurred in database 'db_bolsatrabajo', table 'tbl_vinculo', column 'idVinculo'.
+The statement has been terminated.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 19:57:22</hora>
+    <titulo>strSql</titulo>
+    <dscError>There is already an open DataReader associated with this Connection which must be closed first.</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 19:57:56</hora>
+    <titulo>Error</titulo>
+    <dscError>Error: en el inicio de sesion de usuario</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 19:58:15</hora>
+    <titulo>Error</titulo>
+    <dscError>Error: en el inicio de sesion de usuario</dscError>
+  </fila>
+  <fila>
+    <hora>16/08/2007 19:58:30</hora>
+    <titulo>Error</titulo>
+    <dscError>Error: en el inicio de sesion de usuario</dscError>
+  </fila>
+</logerrorapp>

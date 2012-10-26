@@ -1,0 +1,385 @@
+/* Estilos Class para Prospectos */
+.finalLog
+{
+	font-family: "Geneva", Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background-color:#d2e4fc;
+	border: 1px solid #999999;
+	margin-top:4px;
+	margin-bottom:4px;
+	padding:5px;
+	color:Black;	
+}
+
+.errorBox 
+{
+	background-color:#FFD2B6;
+	border: 1px solid #E3411A;
+	padding:15px;
+	display:block;
+}
+
+.tableMenu
+{
+	border: solid 1px #d2e4fc;
+	border: none;
+	width:100px;
+}
+
+.tableMenuHeader 
+{
+	border: solid 1px #d2e4fc;
+	background-color:#d2e4fc;
+	padding:4px;
+	font-weight:bold;
+}
+
+.tableMenuItem
+{
+	background-color: #f2f5f7;
+}
+
+.tableMenuDiv
+{
+	background-color: #f2f5f7;
+	width:100%;
+	cursor:hand;
+	padding: 4px;
+	border: solid 1px #f2f5f7;
+}
+
+.tableFoot
+{
+	border: none;
+	background-color: #eeeeee;
+	width:760px;
+	height:20px;
+} 
+
+.tableFoot A:hover
+{
+	color: Red;
+	text-decoration:none
+} 
+
+.txtError 
+{
+  font-family: "Geneva", Arial, Helvetica, sans-serif;
+  FONT-SIZE: 11px;
+  color: Red;
+}
+
+.divTitle
+{
+	font-family: "Geneva", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#eeeeee;
+	font-weight:bold;
+	padding-top:4px;
+	padding-bottom:4px
+}
+
+.divFiltro
+{
+	font-family: "Geneva", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#FFFFCC;
+}
+
+.divAcciones
+{
+	font-family: "Geneva", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#eeeeee;
+}
+
+.divTitleInner
+{
+	font-family: "Geneva", Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background-color:#d2e4fc;
+	font-weight:bold;
+	padding-top:2px;
+	padding-bottom:2px
+}
+
+.divNew
+{
+	text-align:right;
+	padding-top: 8px;
+	padding-bottom: 4px;
+}
+
+.divNew input 
+{
+	cursor:hand;
+	width:60px;
+}
+
+.divEdit
+{
+	padding-top: 8px;
+	padding-bottom: 4px;
+}
+
+.divEdit input 
+{
+	cursor:hand;
+	width:60px;
+}
+
+
+.gridHeader 
+{	color:#00008B;
+	font-weight:bold;	
+	background-color:#eeeeee;
+	background: url(img/sort_table_bg.gif) #fff bottom left repeat-x;
+	
+}
+
+.gridAlternativeItem
+{ 
+	background-color:#eeeeee;
+}
+
+.Label
+{
+  border:solid 1px #999999;
+	font-family: "Geneva", Arial, Helvetica, sans-serif;
+  FONT-SIZE: 11px;
+}
+
+
+INPUT, TEXTAREA, SELECT
+{
+	
+	font-family: "Geneva", Arial, Helvetica, sans-serif;
+  FONT-SIZE: 11px;
+}
+
+BODY, TABLE, TD
+{
+    font-family: "Geneva", Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    
+}
+
+.ControlForm
+{
+	border-right: darkgray 1px solid;
+	border-top: darkgray 1px solid;
+	font-size: 11px;
+	border-left: darkgray 1px solid;
+	border-bottom: darkgray 1px solid;
+	font-family: "Geneva", Arial, Helvetica, sans-serif;
+	background-color: gainsboro;	
+}
+
+BODY 
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	background-color: #666666;	
+}
+TABLE
+{
+	background-color:#FFFFFF
+}
+
+.MenuA
+{ 
+	font-family: "Geneva", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	font-weight: bold;
+	text-align:left;
+	text-decoration: none;
+}
+a.MenuA:hover
+{
+	font-family: "Geneva", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	font-weight: bold;
+	text-align:left;
+	text-decoration: underline;
+}
+
+.pie {
+	font-family:"Geneva", Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+}
+
+
+p.break
+{
+        page-break-after: always;
+}
+.OCULTO
+{
+        display: none;
+}
+.VISIBLE
+{
+        display: block;
+}
+
+
+/*MENU BAR */
+#MENUPRINCIPAL
+{		height: 40px;
+}
+
+#MENUPRINCIPAL ul
+{
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+}
+
+#MENUPRINCIPAL li
+{
+    float: left;
+}
+
+#MENUPRINCIPAL li a
+{
+    background: url(img/topnav_slice.gif) #fff bottom left repeat-x;
+    line-height: 34px;
+    float: left;
+    width: 160px;
+    height: 35px;
+    display: block;
+    font-size: 12px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+/*FIN MENU BAR*/			
+
+/*Menu Tab*/
+#tabulador
+{
+    position: relative;
+    height: 2em;
+    width: 955px;
+}
+
+#tabulador ul#listaMenu
+{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: -1px;
+    width: 80em;
+    font: normal normal normal 12px Arial, Tahoma, sans-serif;
+}
+
+#tabulador ul#listaMenu li
+{
+    display: inline;
+    list-style: none;
+}
+
+/* Inactive Tab */
+#tabulador ul#listaMenu a.inactive
+{
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    border-bottom: none;
+    border-right: 1px solid #aaa;
+    background-image: url('img/gray_gradient.gif.jpg');
+	background-repeat: repeat-x;
+    color: #000;
+    display: block;
+    padding: 4px 0px 4px 0px; /* 2px less padding-bottom than a.active. */
+    margin: 1px 2px 0px 0px; /* 1px more margin-left than a.active. */
+    text-align: center;
+    text-decoration: none;
+    width: 12em;
+    float: left;
+}
+
+/* Inactive Tab Hover */
+#tabulador ul#listaMenu a.inactive:hover
+{
+    margin-top: 0px;
+    border-color: #666;
+    padding-bottom: 5px;
+}
+
+/* Active Tab */
+#tabulador ul#listaMenu a.active
+{
+    border-top: 1px solid #666;
+    border-left: 1px solid #666;
+    border-bottom: none;
+    border-right: 1px solid #666;
+    background-image: url('img/active_tab_gradient.gif');
+    background-repeat: repeat-x;
+    color: #000;
+    display: block;
+    padding: 4px 0px 6px 0px; /* 2px more padding-bottom than a.inactive. */
+    margin: 0px 2px 0px 0px; /* 1px less margin-left than a.inactive. */
+    text-align: center;
+    text-decoration: none;
+    width: 12em;
+    float: left;
+}
+
+/* Active Tab Hover */
+#tabulador ul#listaMenu a.active:hover
+{
+    text-decoration: none;
+}
+/*FIN Menu Tab*/
+#LineaAzul
+{		background-color:#6C94EB;
+		height:10px;
+		}
+
+.separaDatos
+{		background-image:url(img/blue_gradient.jpg);
+		background-repeat:repeat-x;
+		color:#F4F4F4;
+		height:20px;
+		}
+		
+/*login*/
+#login , #tblLogin 
+{
+		background:#F1F3F5 none repeat scroll 0%;
+		border:1px solid #CCCCCC;
+}
+
+/*fila seleccionada*/
+.filaSeleccionada
+{background-color:#FFD2FF;
+	}
+
+#txtotroRequisitos { WIDTH: 100% }
+
+.TEXTAREAANCHO
+{ WIDTH: 100% 
+	}
+
+/*tabs*/
+#contieneTabs ul
+{	list-style: none;
+    padding: 0px;
+    margin:0px;
+    text-align:left;
+	}
+
+#contieneTabs ul li
+{  display:inline;	
+	}
+#contieneTabs ul li a
+{	text-decoration:none;	
+	padding:5px;
+	}

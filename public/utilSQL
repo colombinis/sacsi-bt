@@ -1,0 +1,7 @@
+UPDATE    tbl_postulante_x_Busqueda SET  fechaVinculacion = NULL
+
+delete from tbl_RelacionPostulante_Empresa where idempresa=6
+
+delete from tbl_Doc_x_Empresa where idempresa=6
+
+DELETE FROM tbl_cuotasEmpresa WHERE     (idEmpresa = 6)

@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{19C6005F-38BF-4651-950B-7948735D24AE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>bolsatrabajo</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Flow</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>bolsatrabajo</RootNamespace>
+    <StartupObject>bolsatrabajo.%28Ninguno%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation />
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>bolsatrabajo.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants>Depurando="SI"</DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
+    <ExcludeApp_Data>true</ExcludeApp_Data>
+    <IncludeIisSettings>false</IncludeIisSettings>
+    <PublishDatabases>false</PublishDatabases>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>bolsatrabajo.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="ProxyServer\ProxyServer.vbproj">
+      <Name>ProxyServer</Name>
+      <Project>{FF2F0A55-77FF-4C51-B729-5AF82496FED3}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <Reference Include="Microsoft.ApplicationBlocks.Data">
+      <Name>Microsoft.ApplicationBlocks.Data</Name>
+      <HintPath>bin\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.HtmlControls" />
+    <Import Include="System.Web.UI.WebControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\infousuario.aspx.vb">
+      <DependentUpon>infousuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controles\mUpF.aspx.vb">
+      <DependentUpon>mUpF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ucBolsaTrabajoPie.ascx.vb">
+      <DependentUpon>ucBolsaTrabajoPie.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ucConocimientos.ascx.vb">
+      <DependentUpon>ucConocimientos.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ucConocimientos1.ascx.vb">
+      <DependentUpon>ucConocimientos1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ucCuotas.ascx.vb">
+      <DependentUpon>ucCuotas.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ucDatosPost.ascx.vb">
+      <DependentUpon>ucDatosPost.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ucDomicilio.ascx.vb">
+      <DependentUpon>ucDomicilio.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ucfiltrado.ascx.vb">
+      <DependentUpon>ucfiltrado.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ucIngreso_BannerTop.ascx.vb">
+      <DependentUpon>ucIngreso_BannerTop.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ucIngreso_Foot.ascx.vb">
+      <DependentUpon>ucIngreso_Foot.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ucLogin.ascx.vb">
+      <DependentUpon>ucLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ucMenuPostulante.ascx.vb">
+      <DependentUpon>ucMenuPostulante.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ucPostulaciones.ascx.vb">
+      <DependentUpon>ucPostulaciones.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\usMenuSAE.ascx.vb">
+      <DependentUpon>usMenuSAE.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="distribuidor.aspx.vb">
+      <DependentUpon>distribuidor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorGral.aspx.vb">
+      <DependentUpon>ErrorGral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logica\cBaseDatos.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logica\cConocimiento.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logica\cConsultasSysacad.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logica\cDocumento.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logica\cEmpresa.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logica\ctbl_busqueda.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logica\cUsuarioSae.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logica\cUtil.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logica\domicilios_x_postulante.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logica\ReglasNegocio.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logica\RelacionPostulante_Empresa.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logica\tbl_conocimiento_x_postulante.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logica\tbl_cuotasEmpresa.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logica\tbl_Postulante.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logOut.aspx.vb">
+      <DependentUpon>logOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="msgGral.aspx.vb">
+      <DependentUpon>msgGral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="postulante\datosPersonal.aspx.vb">
+      <DependentUpon>datosPersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="postulante\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="postulante\detBP.aspx.vb">
+      <DependentUpon>detBP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="postulante\inicioSesion.aspx.vb">
+      <DependentUpon>inicioSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="postulante\lstBPost.aspx.vb">
+      <DependentUpon>lstBPost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\busquedaDetalle.aspx.vb">
+      <DependentUpon>busquedaDetalle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\busquedaLista.aspx.vb">
+      <DependentUpon>busquedaLista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\ConsultaSaeWeb.aspx.vb">
+      <DependentUpon>ConsultaSaeWeb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\ct.aspx.vb">
+      <DependentUpon>ct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\detConocimiento.aspx.vb">
+      <DependentUpon>detConocimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\detCuotas.aspx.vb">
+      <DependentUpon>detCuotas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\detDatosP.aspx.vb">
+      <DependentUpon>detDatosP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\EmpresaDetalle.aspx.vb">
+      <DependentUpon>EmpresaDetalle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\EmpresaDocum.aspx.vb">
+      <DependentUpon>EmpresaDocum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\EmpresaLista.aspx.vb">
+      <DependentUpon>EmpresaLista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\filtroPostulantes.aspx.vb">
+      <DependentUpon>filtroPostulantes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\inicioSesion.aspx.vb">
+      <DependentUpon>inicioSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\lstConocimientos.aspx.vb">
+      <DependentUpon>lstConocimientos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\lstCuotas.aspx.vb">
+      <DependentUpon>lstCuotas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\lstDatosP.aspx.vb">
+      <DependentUpon>lstDatosP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\PostAmano.aspx.vb">
+      <DependentUpon>PostAmano.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\RelPostEmpresa.aspx.vb">
+      <DependentUpon>RelPostEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SAE\reportes.aspx.vb">
+      <DependentUpon>reportes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testUnitarios\EnviarEmail.aspx.vb">
+      <DependentUpon>EnviarEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Content Include="admin\infousuario.aspx" />
+    <Content Include="Controles\mUpF.aspx" />
+    <Content Include="Controles\ucBolsaTrabajoPie.ascx" />
+    <Content Include="Controles\ucConocimientos.ascx" />
+    <Content Include="Controles\ucConocimientos1.ascx" />
+    <Content Include="Controles\ucCuotas.ascx" />
+    <Content Include="Controles\ucDatosPost.ascx" />
+    <Content Include="Controles\ucDomicilio.ascx" />
+    <Content Include="Controles\ucfiltrado.ascx" />
+    <Content Include="Controles\ucIngreso_BannerTop.ascx" />
+    <Content Include="Controles\ucIngreso_Foot.ascx" />
+    <Content Include="Controles\ucLogin.ascx" />
+    <Content Include="Controles\ucMenuPostulante.ascx" />
+    <Content Include="Controles\ucPostulaciones.ascx" />
+    <Content Include="Controles\usMenuSAE.ascx" />
+    <Content Include="default.aspx" />
+    <Content Include="distribuidor.aspx" />
+    <Content Include="ErrorGral.aspx" />
+    <Content Include="func.js" />
+    <Content Include="Global.asax" />
+    <Content Include="img\banner1.jpg" />
+    <Content Include="img\delete.gif" />
+    <Content Include="img\edit.gif" />
+    <Content Include="img\utn.gif" />
+    <Content Include="img\utn_fondo_pie.gif" />
+    <Content Include="img\view.gif" />
+    <Content Include="logOut.aspx" />
+    <Content Include="msgGral.aspx" />
+    <Content Include="postulante\datosPersonal.aspx" />
+    <Content Include="postulante\default.aspx" />
+    <Content Include="postulante\detBP.aspx" />
+    <Content Include="postulante\inicioSesion.aspx" />
+    <Content Include="postulante\lstBPost.aspx" />
+    <Content Include="pruebalog.htm" />
+    <Content Include="public\logerrorApp.xml" />
+    <Content Include="public\lstConocimientos.xml" />
+    <Content Include="public\plantilla\plantBusqueda.htm" />
+    <Content Include="public\plantilla\plantNotaPago.htm" />
+    <Content Include="public\plantilla\plantNotaPagoGenerica.htm" />
+    <Content Include="SAE\busquedaDetalle.aspx" />
+    <Content Include="SAE\busquedaLista.aspx" />
+    <Content Include="SAE\ConsultaSaeWeb.aspx" />
+    <Content Include="SAE\ct.aspx" />
+    <Content Include="SAE\default.aspx" />
+    <Content Include="SAE\detConocimiento.aspx" />
+    <Content Include="SAE\detCuotas.aspx" />
+    <Content Include="SAE\detDatosP.aspx" />
+    <Content Include="SAE\EmpresaDetalle.aspx" />
+    <Content Include="SAE\EmpresaDocum.aspx" />
+    <Content Include="SAE\EmpresaLista.aspx" />
+    <Content Include="SAE\filtroPostulantes.aspx" />
+    <Content Include="SAE\img\ayuda1.jpg" />
+    <Content Include="SAE\img\Banner_Bolsa.png" />
+    <Content Include="SAE\img\Empresa.jpg" />
+    <Content Include="SAE\img\logoUTN.png" />
+    <Content Include="SAE\img\Postulantes.jpg" />
+    <Content Include="SAE\img\_n-banner-institucional.gif" />
+    <Content Include="SAE\inicioSesion.aspx" />
+    <Content Include="SAE\lstConocimientos.aspx" />
+    <Content Include="SAE\lstCuotas.aspx" />
+    <Content Include="SAE\lstDatosP.aspx" />
+    <Content Include="SAE\PostAmano.aspx" />
+    <Content Include="SAE\RelPostEmpresa.aspx" />
+    <Content Include="SAE\reportes.aspx" />
+    <Content Include="Styles.css" />
+    <Content Include="testUnitarios\EnviarEmail.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="admin\infousuario.aspx.resx">
+      <DependentUpon>infousuario.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\mUpF.aspx.resx">
+      <DependentUpon>mUpF.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ucBolsaTrabajoPie.ascx.resx">
+      <DependentUpon>ucBolsaTrabajoPie.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ucConocimientos.ascx.resx">
+      <DependentUpon>ucConocimientos.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ucConocimientos1.ascx.resx">
+      <DependentUpon>ucConocimientos1.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ucCuotas.ascx.resx">
+      <DependentUpon>ucCuotas.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ucDatosPost.ascx.resx">
+      <DependentUpon>ucDatosPost.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ucDomicilio.ascx.resx">
+      <DependentUpon>ucDomicilio.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ucfiltrado.ascx.resx">
+      <DependentUpon>ucfiltrado.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ucIngreso_BannerTop.ascx.resx">
+      <DependentUpon>ucIngreso_BannerTop.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ucIngreso_Foot.ascx.resx">
+      <DependentUpon>ucIngreso_Foot.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ucLogin.ascx.resx">
+      <DependentUpon>ucLogin.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ucMenuPostulante.ascx.resx">
+      <DependentUpon>ucMenuPostulante.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ucPostulaciones.ascx.resx">
+      <DependentUpon>ucPostulaciones.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\usMenuSAE.ascx.resx">
+      <DependentUpon>usMenuSAE.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="distribuidor.aspx.resx">
+      <DependentUpon>distribuidor.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorGral.aspx.resx">
+      <DependentUpon>ErrorGral.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logOut.aspx.resx">
+      <DependentUpon>logOut.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="msgGral.aspx.resx">
+      <DependentUpon>msgGral.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="postulante\datosPersonal.aspx.resx">
+      <DependentUpon>datosPersonal.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="postulante\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="postulante\detBP.aspx.resx">
+      <DependentUpon>detBP.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="postulante\inicioSesion.aspx.resx">
+      <DependentUpon>inicioSesion.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="postulante\lstBPost.aspx.resx">
+      <DependentUpon>lstBPost.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\busquedaDetalle.aspx.resx">
+      <DependentUpon>busquedaDetalle.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\busquedaLista.aspx.resx">
+      <DependentUpon>busquedaLista.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\ConsultaSaeWeb.aspx.resx">
+      <DependentUpon>ConsultaSaeWeb.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\ct.aspx.resx">
+      <DependentUpon>ct.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\detConocimiento.aspx.resx">
+      <DependentUpon>detConocimiento.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\detCuotas.aspx.resx">
+      <DependentUpon>detCuotas.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\detDatosP.aspx.resx">
+      <DependentUpon>detDatosP.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\EmpresaDetalle.aspx.resx">
+      <DependentUpon>EmpresaDetalle.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\EmpresaDocum.aspx.resx">
+      <DependentUpon>EmpresaDocum.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\EmpresaLista.aspx.resx">
+      <DependentUpon>EmpresaLista.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\filtroPostulantes.aspx.resx">
+      <DependentUpon>filtroPostulantes.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\inicioSesion.aspx.resx">
+      <DependentUpon>inicioSesion.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\lstConocimientos.aspx.resx">
+      <DependentUpon>lstConocimientos.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\lstCuotas.aspx.resx">
+      <DependentUpon>lstCuotas.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\lstDatosP.aspx.resx">
+      <DependentUpon>lstDatosP.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\PostAmano.aspx.resx">
+      <DependentUpon>PostAmano.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\RelPostEmpresa.aspx.resx">
+      <DependentUpon>RelPostEmpresa.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAE\reportes.aspx.resx">
+      <DependentUpon>reportes.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testUnitarios\EnviarEmail.aspx.resx">
+      <DependentUpon>EnviarEmail.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="empresa\" />
+    <Folder Include="My Project\" />
+    <Folder Include="public\CurrV\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49163</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/bolsaTrabajo</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

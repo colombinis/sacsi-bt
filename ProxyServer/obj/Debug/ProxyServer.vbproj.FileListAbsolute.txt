@@ -1,0 +1,7 @@
+C:\inetpub\wwwroot\bolsaTrabajo\ProxyServer\bin\ProxyServer.dll
+C:\inetpub\wwwroot\bolsaTrabajo\ProxyServer\bin\ProxyServer.pdb
+C:\inetpub\wwwroot\bolsaTrabajo\ProxyServer\bin\ProxyServer.xml
+C:\inetpub\wwwroot\bolsaTrabajo\ProxyServer\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\bolsaTrabajo\ProxyServer\obj\Debug\ProxyServer.dll
+C:\inetpub\wwwroot\bolsaTrabajo\ProxyServer\obj\Debug\ProxyServer.xml
+C:\inetpub\wwwroot\bolsaTrabajo\ProxyServer\obj\Debug\ProxyServer.pdb

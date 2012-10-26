@@ -1,0 +1,982 @@
+<HTML>
+<HEAD>
+<TITLE>Generador de Codigo</TITLE>
+<script language="javascript">
+// SELECT 'new Array("' + Table_Name + '","' + Column_Name + '","'+ Data_Type + '","' + cast(coalesce(CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION) as nvarchar(10)) + '","' + SUBSTRING(IS_NULLABLE,1,1) + '"),'  FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_CATALOG='db_prestamosCo' ORDER BY Table_Name
+//NOTA: las columnas del schema estan en el array de mtzTitulos
+var mtzTitulos= new Array("Tabla","Columna","Tipo dato","Longitud","Nulo" )
+var mtzSchema = new Array(
+new Array("dtproperties","id","int","10","N"),
+new Array("dtproperties","objectid","int","10","Y"),
+new Array("dtproperties","property","varchar","64","N"),
+new Array("dtproperties","value","varchar","255","Y"),
+new Array("dtproperties","uvalue","nvarchar","255","Y"),
+new Array("dtproperties","lvalue","image","2147483647","Y"),
+new Array("dtproperties","version","int","10","N"),
+new Array("sysconstraints","error","int","10","Y"),
+new Array("sysconstraints","colid","smallint","5","Y"),
+new Array("sysconstraints","spare1","tinyint","3","Y"),
+new Array("sysconstraints","status","int","10","Y"),
+new Array("sysconstraints","actions","int","10","Y"),
+new Array("sysconstraints","constid","int","10","Y"),
+new Array("sysconstraints","id","int","10","Y"),
+new Array("syssegments","name","varchar","10","N"),
+new Array("syssegments","status","int","10","N"),
+new Array("syssegments","segment","int","10","N"),
+new Array("tbl_busqueda","idEspecialidad","smallint","5","Y"),
+new Array("tbl_busqueda","fechaHasta","datetime","23","Y"),
+new Array("tbl_busqueda","otroRequisitos","char","1000","Y"),
+new Array("tbl_busqueda","idEmpresa","int","10","N"),
+new Array("tbl_busqueda","idBusqueda","int","10","N"),
+new Array("tbl_busqueda","titulo","char","100","Y"),
+new Array("tbl_busqueda","tipoVinculo","int","10","Y"),
+new Array("tbl_busqueda","fechaDesde","datetime","23","Y"),
+new Array("tbl_Conocimiento","idConocimiento","int","10","N"),
+new Array("tbl_Conocimiento","dscConocimiento","char","100","Y"),
+new Array("tbl_conocimiento_x_postulante","idPostulante","int","10","N"),
+new Array("tbl_conocimiento_x_postulante","idConocimiento","int","10","N"),
+new Array("tbl_conocimiento_x_postulante","idvalor","int","10","N"),
+new Array("tbl_cuotasEmpresa","fechaVto1","datetime","23","N"),
+new Array("tbl_cuotasEmpresa","dscConcepto","char","100","Y"),
+new Array("tbl_cuotasEmpresa","valor","decimal","18","Y"),
+new Array("tbl_cuotasEmpresa","idEstadoCuota","int","10","Y"),
+new Array("tbl_cuotasEmpresa","idCuota","int","10","N"),
+new Array("tbl_cuotasEmpresa","idEmpresa","int","10","N"),
+new Array("tbl_cuotasEmpresa","idBusqueda","int","10","N"),
+new Array("tbl_cuotasEmpresa","idPostulante","int","10","N"),
+new Array("tbl_Doc_x_Empresa","idEmpresa","int","10","N"),
+new Array("tbl_Doc_x_Empresa","idDocumento","int","10","N"),
+new Array("tbl_Doc_x_Empresa","Presentado","smallint","5","Y"),
+new Array("tbl_Doc_x_Empresa","idMomento","int","10","Y"),
+new Array("tbl_Doc_x_Empresa","Requerido","smallint","5","Y"),
+new Array("tbl_Doc_x_Momento","idDocumento","int","10","N"),
+new Array("tbl_Doc_x_Momento","idMomento","int","10","N"),
+new Array("tbl_Doc_x_Momento","Requerido","smallint","5","Y"),
+new Array("tbl_documento","idDoc","int","10","N"),
+new Array("tbl_documento","dscDocumento","char","100","Y"),
+new Array("tbl_documento","fechaAlta","datetime","23","Y"),
+new Array("tbl_documento","fechaBaja","datetime","23","Y"),
+new Array("tbl_domicilios_x_postulante","idPostulante","int","10","N"),
+new Array("tbl_domicilios_x_postulante","idDomicilio","int","10","N"),
+new Array("tbl_domicilios_x_postulante","dscDomicilio","char","100","Y"),
+new Array("tbl_domicilios_x_postulante","calle","char","100","Y"),
+new Array("tbl_domicilios_x_postulante","nroCalle","char","100","Y"),
+new Array("tbl_domicilios_x_postulante","letraBis","char","100","Y"),
+new Array("tbl_domicilios_x_postulante","piso","char","100","Y"),
+new Array("tbl_domicilios_x_postulante","depto","char","100","Y"),
+new Array("tbl_domicilios_x_postulante","pais","int","10","Y"),
+new Array("tbl_domicilios_x_postulante","provincia","int","10","Y"),
+new Array("tbl_domicilios_x_postulante","localidad","int","10","Y"),
+new Array("tbl_domicilios_x_postulante","telParticular","char","100","Y"),
+new Array("tbl_domicilios_x_postulante","otrosTelefonos","char","100","Y"),
+new Array("tbl_empresa","fechaAlta","datetime","23","Y"),
+new Array("tbl_empresa","idEstadoEmpresa","int","10","Y"),
+new Array("tbl_empresa","email","char","10","Y"),
+new Array("tbl_empresa","web","char","10","Y"),
+new Array("tbl_empresa","personaContacto","char","10","Y"),
+new Array("tbl_empresa","tipoEmpresa","int","10","Y"),
+new Array("tbl_empresa","idEmpresa","int","10","N"),
+new Array("tbl_empresa","cuit","char","10","Y"),
+new Array("tbl_empresa","razonSocial","char","10","Y"),
+new Array("tbl_empresa","domicilio","char","10","Y"),
+new Array("tbl_empresa","telefonos","char","10","Y"),
+new Array("tbl_especialidad","dscEspecialidad","char","100","Y"),
+new Array("tbl_especialidad","idEspecialidad","smallint","5","N"),
+new Array("tbl_estadoCuota","idEstadoCuota","int","10","N"),
+new Array("tbl_estadoCuota","dscEstadoCuota","char","10","Y"),
+new Array("tbl_estadoEmpresa","idEstadoEmpresa","int","10","N"),
+new Array("tbl_estadoEmpresa","dscEstadoEmpresa","char","100","Y"),
+new Array("tbl_momento","idMomento","int","10","N"),
+new Array("tbl_momento","dscMomento","char","100","Y"),
+new Array("tbl_postulante","idPostulante","int","10","N"),
+new Array("tbl_postulante","fechaAltaSistema","datetime","23","Y"),
+new Array("tbl_postulante","usuario","char","100","Y"),
+new Array("tbl_postulante","contrasenia","char","100","Y"),
+new Array("tbl_postulante","email","char","100","Y"),
+new Array("tbl_postulante","nroLegajo","int","10","Y"),
+new Array("tbl_postulante","tipoDoc","smallint","5","Y"),
+new Array("tbl_postulante","nroDoc","char","15","Y"),
+new Array("tbl_postulante","apellido","char","100","Y"),
+new Array("tbl_postulante","nombres","char","100","Y"),
+new Array("tbl_postulante","nroCuil","char","100","Y"),
+new Array("tbl_postulante","fechaNacimiento","datetime","23","Y"),
+new Array("tbl_postulante","sexo","smallint","5","Y"),
+new Array("tbl_postulante","idDomicilioFamiliar","int","10","Y"),
+new Array("tbl_postulante","idDomicilioActual","int","10","Y"),
+new Array("tbl_postulante","fecUltMateriaAprobada","datetime","23","Y"),
+new Array("tbl_postulante","dscUltMateriaAprobada","char","100","Y"),
+new Array("tbl_postulante","idEspecialidad","smallint","5","Y"),
+new Array("tbl_postulante","cantMateriasAprobadas","int","10","Y"),
+new Array("tbl_postulante","planEspecialidad","char","100","Y"),
+new Array("tbl_postulante","anioCursa","int","10","Y"),
+new Array("tbl_postulante","otrosComentarios","char","1000","Y"),
+new Array("tbl_postulante","turnoCursa","char","100","Y"),
+new Array("tbl_postulante","promConAplazos","decimal","18","Y"),
+new Array("tbl_postulante","promSinAplazos","decimal","18","Y"),
+new Array("tbl_postulante","matRegExamenPend","int","10","Y"),
+new Array("tbl_postulante","tituloUniversitario","char","100","Y"),
+new Array("tbl_postulante","titulosecundario","char","100","Y"),
+new Array("tbl_postulante","archivoFoto","char","1000","Y"),
+new Array("tbl_postulante","archivoCV","char","1000","Y"),
+new Array("tbl_postulante_x_Busqueda","fechaExclusion","datetime","23","Y"),
+new Array("tbl_postulante_x_Busqueda","motivoExclusion","nchar","1000","Y"),
+new Array("tbl_postulante_x_Busqueda","idBusqueda","int","10","N"),
+new Array("tbl_postulante_x_Busqueda","idPostulante","int","10","N"),
+new Array("tbl_postulante_x_Busqueda","fechaPostulacion","datetime","23","Y"),
+new Array("tbl_postulante_x_Busqueda","fechaVinculacion","datetime","23","Y"),
+new Array("tbl_RelacionPostulante_Empresa","idBusqueda","int","10","N"),
+new Array("tbl_RelacionPostulante_Empresa","idPostulante","int","10","N"),
+new Array("tbl_RelacionPostulante_Empresa","idEmpresa","int","10","N"),
+new Array("tbl_RelacionPostulante_Empresa","fechaInicio","datetime","23","N"),
+new Array("tbl_RelacionPostulante_Empresa","fechaFin","datetime","23","Y"),
+new Array("tbl_RelacionPostulante_Empresa","tipovinculo","int","10","Y"),
+new Array("tbl_tipoDoc","idTipoDoc","smallint","5","N"),
+new Array("tbl_tipoDoc","dscTipoDoc","char","100","Y"),
+new Array("tbl_tipoEmpresa","dscTipoEmpresa","char","100","Y"),
+new Array("tbl_tipoEmpresa","idTipoEmpresa","int","10","N"),
+new Array("tbl_valorConocimiento","idValor","int","10","N"),
+new Array("tbl_valorConocimiento","dscValor","char","100","Y"),
+new Array("tbl_vinculo","dscVinculo","char","100","Y"),
+new Array("tbl_vinculo","idVinculo","int","10","N")
+);
+
+function init()
+{ 
+	var inti;
+	//lleno el combo con las tablas
+	var mtzTablas =getTablas();
+	var  oCbo= document.getElementById("cboTablas");
+	borrarCombo(oCbo);
+	for (inti=0;inti < mtzTablas.length;inti++)
+	{ addcbo(oCbo,mtzTablas[inti],mtzTablas[inti]);}
+	//armo la grilla de acuerdo a la tabla elegida
+	ArmarGrilla();
+}
+
+function ArmarGrilla()
+{ //segun la tabla elegida armo la grilla con los datos de las columnas
+  var  oCbo= document.getElementById("cboTablas");
+  var sTabla	= oCbo.item(oCbo.selectedIndex).value;
+  var mtzColum =getColumnas(sTabla);
+  var divGrilla = document.getElementById("oGrilla");
+  var sHTML='';
+  var i,j,lengthTitulos;
+  //armo el encabezado de la grilla SACANDO la columna del nombre de la tabla
+	sHTML="<TABLE id='tblColumnas' name='tblColumnas' border='1' ><TR>";
+	lengthTitulos=mtzTitulos.length;
+	//agrego el chek de seleccionar todo
+	sHTML+="<TD><INPUT type='checkbox' id='chkTodo'  name='chkTodo' onclick='selTodo(this);' ></TD>";
+	for (j=1;j< lengthTitulos;j++)
+	{ 
+		sHTML+="<TD>"+ mtzTitulos[j] + "</TD>";
+	} 
+	sHTML+="</TR>";	
+	for (i=0;i< mtzColum.length;i++)
+	{ 
+		sHTML+="<TR>";
+		sHTML+="<TD><INPUT type='checkbox' id='chkRow"+i+"'  name='chkRow' ></TD>";	
+		for (j=1;j< lengthTitulos;j++)
+		{ 
+			sHTML+="<TD>" + mtzColum[i][j] + "</TD>";
+		}
+		sHTML+="</TR>";
+	} 
+	sHTML+="</TABLE>";
+	divGrilla.innerHTML=sHTML;
+}
+function selTodo(ochkAll)
+{//selecciona o desSelecciona todos los items
+	var i;
+	var chkRows = document.getElementsByName("chkRow");
+	for(i=0;i < chkRows.length ;i++)
+	{chkRows[i].checked=ochkAll.checked;}
+}
+function getTablas()
+{//del shema retorno una matriz solo con las tablas
+//nota el schema tiene que estar ordenado por tabla
+var m_mTablas = new Array();
+var ultTabla='';
+var i;
+var cont=0;
+	for (i=0;i < mtzSchema.length;i++)
+	{ 
+		if (ultTabla!=mtzSchema[i][0])
+		{ 	ultTabla=mtzSchema[i][0];
+			m_mTablas[cont]=ultTabla;
+			cont+=1;
+		} 
+	}
+return m_mTablas;
+}
+function getColumnas(stabla)
+{//del shema retorno una matriz solo con las filas que pertenezcan a la tabla
+//nota el schema tiene que estar ordenado por tabla
+var m_mColumna = new Array();
+var i;
+var cont=0;
+	for (i=0;i < mtzSchema.length;i++)
+	{ 
+		if (stabla==mtzSchema[i][0])
+		{ 	
+			m_mColumna[cont]=mtzSchema[i];
+			cont+=1;
+		} 
+	}
+return m_mColumna;
+}
+
+function borrarCombo(oCbo)
+{	var cantidad=i=oCbo.childNodes.length;
+	var e ;
+	for (e=0;e<cantidad;e++)	
+	{
+		i= i -1;		  
+		hijo = oCbo.childNodes[i];
+		// que no sea un "falso child"
+		if (typeof(hijo.outerHTML) != "undefined") {
+			//si no es un OPTION
+			if (hijo.tagName == 'OPTION') {
+				oCbo.removeChild (hijo);			
+			}
+		}
+	}
+}
+function addcbo(oCbo,value,text)
+{	var oOption = document.createElement("OPTION");
+	oOption.text=text;
+	oOption.value=value;
+	oOption.EXTRA=value;
+	oCbo.add(oOption);
+}
+
+function generar(opcion)
+{//invoca a la funcion de generacion de codigo dependiendo del boton presionado
+	var mtzFilas=getFilasSeleccionadas();
+
+	var sHTMLCODIGO="";
+	if(opcion==1){sHTMLCODIGO+=generarClaseVbNet(mtzFilas);}
+	
+	if(opcion==2){sHTMLCODIGO+=generarListaAspx(mtzFilas);}
+	
+	if(opcion==3){sHTMLCODIGO+=generarDetalleAspx(mtzFilas);}
+	
+	//coloco el codigo a la salida
+	document.getElementById("txtout").innerText=sHTMLCODIGO;
+}
+
+function getFilasSeleccionadas()
+{//filtro solo las filas que fueron seleccionadas
+	var mFilasFiltradas = new Array();
+	var oTabla = document.getElementById("tblColumnas");
+	var oRow;
+	var i;
+	var ochk;
+	var cont=0;
+	//excluyo  la fila 0 de los titulos
+	for (i=1;i < oTabla.rows.length;i++)
+	{ 	oRow=oTabla.rows[i];
+		ochk =oRow.cells[0].getElementsByTagName("input")[0];
+		if (ochk.checked) 
+		{//agrego la fila
+			mFilasFiltradas[cont]=oRow;
+			cont+=1;
+		}
+	}
+return mFilasFiltradas;
+}
+
+function generarClaseVbNet(mtzFilas)
+{//Genera  y retorna el codigo : clases  vb.Net
+//in
+//	mtzFilas: las filas que se seleccionaron
+window.status='Comienza generarClaseVbNet';
+	var  oCbo= document.getElementById("cboTablas");
+	var nomEntidad = oCbo.item(oCbo.selectedIndex).text;
+		var i;
+	var nombre='';
+	var tipoDato='';
+	var longitud=0;
+	var esNulo='';
+	//secciones
+	var sHTML='';
+	var sPRIVATE='';
+	var sGETSET='';
+	var sFUNC='';
+	
+	//armado para las cadenas SQL
+	var SQL1='';
+	var SQL2='';
+	var SQL3='';
+	for (i=0;i < mtzFilas.length;i++)
+	{	nombre=mtzFilas[i].cells[1].innerText;
+		SQL1+=", "+nombre+" ";
+		SQL2+="\",\" & logica.cBaseDatos.xSQL(Me."+nombre+"  ,cBaseDatos.MiTipoDeDatosSQL.Texto)  &";
+		SQL3+="\", "+nombre+"=\" & logica.cBaseDatos.xSQL(Me."+nombre+" ,cBaseDatos.MiTipoDeDatosSQL.Texto) & _\n";
+	}
+	//remuevo los  caracteres para que quede bien
+	//caracteres a remover principio->  ,
+	SQL1 = SQL1.substring(1,SQL1.lenght);
+	//caracteres a remover principio->  ","
+	SQL2 = SQL2.substring(3,SQL2.lenght);
+	//caracteres a remover principio->  ",
+	//caracteres a remover FINAL->  & _
+	SQL3 = SQL3.substring(2,SQL3.lenght);
+	
+	for (i=0;i < mtzFilas.length;i++)
+	{ //por cada fila recupero el valor
+		nombre=mtzFilas[i].cells[1].innerText;
+		tipoDato=mtzFilas[i].cells[2].innerText;
+		longitud=mtzFilas[i].cells[3].innerText;
+		esNulo=mtzFilas[i].cells[4].innerText;
+		//hago la corresponencia de los tipos de datos del SQL al Vb.net
+		switch (tipoDato)
+		{
+			case 'int':
+				tipoDato='Int32';
+				break;
+			case 'bit' :
+				tipoDato= 'Boolean';
+				break;
+			case 'binary' :
+				tipoDato= 'Boolean';
+				break;
+			case 'varbinary' :
+				tipoDato= 'Boolean';
+				break;
+			case 'char' :
+				tipoDato= 'String';
+				break;
+			case 'nchar' :
+				tipoDato= 'String';
+				break;
+			case 'bigint' :
+				tipoDato= 'Int32';
+				break;
+			case 'smallint' :
+				tipoDato= 'Int32';
+				break;
+			case 'tinyint' :
+				tipoDato= 'Int32';
+				break;
+			case 'ntext' :
+				tipoDato= 'String';
+				break;
+			case 'varchar' :
+				tipoDato= 'String';
+				break;
+			case 'nvarchar' :
+				tipoDato= 'String';
+				break;
+			case 'text' :
+				tipoDato= 'String';
+				break;
+			case 'datetime' :
+				tipoDato= 'DateTime';
+				break;
+			case 'smalldatetime' :
+				tipoDato= 'DateTime';
+				break;
+			case 'decimal' :
+				tipoDato= 'Double';
+				break;
+			case 'float' :
+				tipoDato= 'Double';
+				break;
+			case 'money' :
+				tipoDato= 'Double';
+				break;
+			case 'real' :
+				tipoDato= 'Double';
+				break;
+			case 'smallmoney' :
+				tipoDato= 'Double';
+				break;
+		}
+		//Genero  la salida
+		//Variables privadas
+		sPRIVATE+="\tPrivate m_"+nombre+" As "+tipoDato+"\n";
+		//Get y set
+		sGETSET+="Public Property "+nombre+"() As "+tipoDato+"\n";
+		sGETSET+="  Get\n";
+		sGETSET+="    Return m_"+nombre+"\n";
+		sGETSET+="  End Get\n";
+		sGETSET+="  Set(ByVal Value As "+tipoDato+")\n";
+		sGETSET+="    m_"+nombre+" = Value\n";
+		sGETSET+="  End Set\n";
+		sGETSET+="End Property\n";
+	}
+//FUNCIONES
+	//constructor
+	sFUNC+="\n";
+	sFUNC+="Public Sub New()\n";
+	sFUNC+="  'constructor vacio\n";
+	sFUNC+="End Sub\n";
+	//ALTA
+	sFUNC+="Public Function Agregar() As String\n";
+	sFUNC+="	'Objetivo:\n";
+	sFUNC+="	'in\n";
+	sFUNC+="	'out\n";
+	sFUNC+="	' \"\" o el error\n";
+	sFUNC+="	'TODO: revisar\n";
+	sFUNC+="	Dim oDB As Logica.cBaseDatos\n";
+	sFUNC+="	Dim strPosibleError As String = \"\"\n";
+	sFUNC+="	Dim strSQL As String = \"\"\n";
+	
+	sFUNC+="	strSQL=\"INSERT INTO "+nomEntidad; 
+	sFUNC+=" ( "+SQL1+" ) "; 
+	sFUNC+=" values ( \" "+SQL2+" \")\"\n";
+
+	sFUNC+="	If strPosibleError = \"\" Then\n";		
+	sFUNC+="		strPosibleError = oDB.EjecutarAccion(strSQL)\n";
+	sFUNC+="	End If\n";
+	sFUNC+="	Return strPosibleError\n";
+	sFUNC+="End Function\n";
+	//EDITAR
+	sFUNC+="Public Function Editar() As String\n";
+	sFUNC+="	'Objetivo:\n";
+	sFUNC+="	'in\n";
+	sFUNC+="	'out\n";
+	sFUNC+="	' \"\" o el error\n";
+	sFUNC+="	'TODO: revisar\n";
+    sFUNC+="  Dim oDB As Logica.cBaseDatos\n";
+	sFUNC+="  Dim strSQL as String\n";
+	sFUNC+="  strSQL=\"UPDATE "+nomEntidad+" set \" & _\n";
+    sFUNC+="\" "+SQL3+"\n";
+	sFUNC+="  Return oDB.EjecutarAccion(strSQL)\n";
+    sFUNC+="End Function\n";
+	//Borrar
+	sFUNC+="Public Function Borrar() As String\n";
+	sFUNC+="	'Objetivo:\n";
+	sFUNC+="	'in\n";
+	sFUNC+="	'out\n";
+	sFUNC+="	' \"\" o el error\n";
+	sFUNC+="	'TODO: revisar\n";
+    sFUNC+="	Dim oDB As Logica.cBaseDatos\n";
+	sFUNC+="	Dim strSql As String\n";
+	sFUNC+="	strSql=\"DELETE FROM "+nomEntidad+" WHERE\"\n";
+    sFUNC+="  Return oDB.EjecutarAccion(strSql)\n";
+    sFUNC+="End Function\n";
+	//Traer
+	sFUNC+="Public Function Traer(ByVal ID As Integer) As DataRow\n";
+    sFUNC+="  'Trae una \n";
+    sFUNC+="  Dim strWhere As String\n";
+    sFUNC+="  Dim oDB As Logica.cBaseDatos\n";
+    sFUNC+="  Dim oDT As DataTable\n";
+	sFUNC+="\n";
+    sFUNC+="  If ID > 0 Then\n";
+    sFUNC+="    strWhere = \" WHERE ID=\" & ID\n";
+    sFUNC+="  End If\n";
+    sFUNC+="  oDT = oDB.EjecutarDataTable(\"SELECT "+SQL1+" FROM "+nomEntidad+" \" & strWhere & \" ORDER BY 1 \")\n";
+    sFUNC+="  If oDT.Rows.Count <> 0 Then\n";
+    sFUNC+="    Return oDT.Rows(0)\n";
+    sFUNC+="  Else\n";
+    sFUNC+="    Return Nothing\n";
+    sFUNC+="  End If\n";
+    sFUNC+="End Function\n";
+	sFUNC+="\n";
+	sFUNC+="Public Function TraerTodos() As DataTable\n";
+    sFUNC+="  'Trae todos \n";
+    sFUNC+="  Dim oDB As Logica.cBaseDatos\n";
+    sFUNC+="  Dim oDT As DataTable\n";
+	sFUNC+="\n";
+    sFUNC+="  oDT = oDB.EjecutarDataTable(\"SELECT "+SQL1+" FROM "+nomEntidad+" ORDER BY 1 \")\n";
+    sFUNC+="  If oDT.Rows.Count <> 0 Then\n";
+    sFUNC+="    Return oDT\n";
+    sFUNC+="  Else\n";
+    sFUNC+="    Return Nothing\n";
+    sFUNC+="  End If\n";
+    sFUNC+="End Function\n";
+	
+	sHTML+="Namespace Logica\n";
+	sHTML+="Public Class "+nomEntidad+"\n";
+	sHTML+="#Region \"Variables Privadas, GET, SET \"\n";
+	sHTML+=sPRIVATE;
+	sHTML+=sGETSET;
+	sHTML+="#End Region\n";
+	sHTML+="#Region \"Funciones ABM \"\n";
+	sHTML+=sFUNC;
+	sHTML+="#End Region\n";
+	sHTML+="End Class\n";
+	sHTML+="End Namespace\n";
+	
+	window.status='Finalizado generarClaseVbNet';
+	return sHTML;
+}
+
+function generarListaAspx(mtzFilas)
+{//Genera  y retorna el codigo : clases  vb.Net
+//in
+//	mtzFilas: las filas que se seleccionaron
+window.status='Comienza generarListaAspx';
+	var  oCbo= document.getElementById("cboTablas");
+	var nomEntidad = oCbo.item(oCbo.selectedIndex).text;
+	var i;
+	var nombre='';
+	var tipoDato='';
+	var longitud=0;
+	var esNulo='';
+	//secciones
+	var sHTML='';
+	var sCOLUMNAS='';
+	
+	for (i=0;i < mtzFilas.length;i++)
+	{ //por cada fila recupero el valor
+		nombre=mtzFilas[i].cells[1].innerText;
+		tipoDato=mtzFilas[i].cells[2].innerText;
+		longitud=mtzFilas[i].cells[3].innerText;
+		esNulo=mtzFilas[i].cells[4].innerText;
+		//Genero  la salida
+		//Columnas de la grilla
+		sCOLUMNAS+="\t\t\t<asp:BoundColumn Visible=\"True\" DataField=\""+nombre+"\" HeaderText=\""+nombre+"\"></asp:BoundColumn>\n";	
+	}
+sHTML+="-------------------------------- INICIO HTML --------------------------------\n";	
+sHTML+="<HTML>\n";
+sHTML+="	<HEAD>\n";
+sHTML+="		<title>Lista</title>\n";
+sHTML+="		<LINK href=\"../Styles.css\" type=\"text/css\" rel=\"stylesheet\">\n";
+sHTML+="		<script language=\"javascript\">\n";
+sHTML+="		var ofila ={obj:new Object(),val:-1};\n";
+sHTML+="\n";
+sHTML+="		function init()\n";
+sHTML+="		{	//inicializo la pantalla\n";
+sHTML+="		}\n";
+sHTML+="\n";
+sHTML+="		function confirmDelete() {\n";
+sHTML+="			var result = confirm('Desea borrar el registro ?');\n";
+sHTML+="			return result;\n";
+sHTML+="		}\n";
+sHTML+="\n";
+sHTML+="		function Selrow(ochkrow, valorID)\n";
+sHTML+="		{	var oTR;	\n";
+sHTML+="			if (ofila.obj.checked)\n";
+sHTML+="			{	oTR = ofila.obj.parentElement.parentElement;\n";
+sHTML+="				oTR.style.backgroundColor='';\n";
+sHTML+="				ofila.obj.checked=false;\n";
+sHTML+="			}\n";
+sHTML+="			ofila.obj=ochkrow;\n";
+sHTML+="			colocarValor(valorID);\n";
+sHTML+="			ofila.val=valorID;\n";
+sHTML+="			oTR = ofila.obj.parentElement.parentElement;\n";
+sHTML+="			oTR.style.backgroundColor='#FFCCAA';\n";
+sHTML+="		}\n";
+sHTML+="\n";
+sHTML+="		function colocarValor(val)\n";
+sHTML+="		{\n";
+sHTML+="			document.getElementById(\"txtIDOculto\").value=val;\n";
+sHTML+="		}\n";
+sHTML+="\n";
+sHTML+="</";
+sHTML+="script>\n";
+sHTML+="	</HEAD>\n";
+sHTML+="	<body onload=\"init();\">\n";
+sHTML+="		<form id=\"Form1\" method=\"post\" runat=\"server\">\n";
+sHTML+="			<!-- ### CONTENIDO AQUI ### -->\n";
+sHTML+="			<input type=\"hidden\" id=\"txtIDOculto\" runat=\"server\" value=\"\" />\n";
+sHTML+="			<div class=\"divTitle\" runat=\"server\" id=\"cantReg\">Lista de XXX(--)</div>\n";
+sHTML+="			<div class=\"divFiltro\">Buscar XXX con el&nbsp;CAMPOXXX&nbsp;\n";
+sHTML+="				<asp:TextBox id=\"txtFILTRO\" runat=\"server\"></asp:TextBox>\n";
+sHTML+="				<asp:Button id=\"cmdBuscar\" runat=\"server\" Text=\"Buscar\"></asp:Button>\n";
+sHTML+="			</div>\n";
+sHTML+="			<div id=\"datos\">\n";
+sHTML+="				<asp:datagrid id=\"oGrid\" runat=\"server\" Width=\"100%\" AutoGenerateColumns=\"False\">\n";
+sHTML+="					<AlternatingItemStyle CssClass=\"gridAlternativeItem\" ></AlternatingItemStyle>\n";
+sHTML+="					<HeaderStyle CssClass=\"GridHeader\"></HeaderStyle>\n";
+sHTML+="					<Columns>\n";
+sHTML+="						<asp:TemplateColumn>\n";
+sHTML+="							<HeaderStyle Width=\"50px\"></HeaderStyle>\n";
+sHTML+="							<ItemTemplate>\n";
+sHTML+="								<asp:RadioButton id=\"optRows\" runat=\"server\"></asp:RadioButton>\n";
+sHTML+="							</ItemTemplate>\n";
+sHTML+="						</asp:TemplateColumn>\n";
+sHTML+=sCOLUMNAS;
+sHTML+="						<asp:TemplateColumn>\n";
+sHTML+="							<ItemStyle HorizontalAlign=\"Center\"></ItemStyle>\n";
+sHTML+="							<ItemTemplate>\n";
+sHTML+="								<asp:ImageButton id=\"imgView\" CommandName=\"View\" Runat=\"server\" ImageUrl=\"../img/view.gif\" AlternateText=\"Ver\" BorderStyle=\"None\"></asp:ImageButton>\n";
+sHTML+="								<asp:ImageButton id=\"imgEdit\" CommandName=\"Edit\" Runat=\"server\" ImageUrl=\"../img/edit.gif\" AlternateText=\"Editar\" BorderStyle=\"None\"></asp:ImageButton>\n";
+sHTML+="								<asp:ImageButton id=\"imgDelete\" CommandName=\"Delete\" Runat=\"server\" ImageUrl=\"../img/delete.gif\" AlternateText=\"Borrar\" BorderStyle=\"None\"></asp:ImageButton>\n";
+sHTML+="							</ItemTemplate>\n";
+sHTML+="						</asp:TemplateColumn>\n";
+sHTML+="					</Columns>\n";
+sHTML+="					<PagerStyle CssClass=\"GridHeader\"></PagerStyle>\n";
+sHTML+="				</asp:datagrid>\n";
+
+sHTML+="			</div>\n";
+sHTML+="			<div id=\"divAcciones\" class=\"divAcciones\">\n";
+sHTML+="				<asp:Button id=\"btnNew\" runat=\"server\" Text=\"Agregar Nueva XXX\" CausesValidation=\"False\"></asp:Button>\n";
+sHTML+="			</div>\n";
+sHTML+="			<!-- ### CONTENIDO AQUI ###-->\n";
+sHTML+="		</form>\n";
+sHTML+="	</body>\n";
+sHTML+="</HTML>\n";
+sHTML+="\n";
+sHTML+="\n";
+sHTML+="-------------------------------- FIN HTML --------------------------------\n";
+sHTML+="\n";
+sHTML+="\n";
+sHTML+="-------------------------------- INICIO .VB --------------------------------\n";
+
+sHTML+="Inherits System.Web.UI.Page\n";
+sHTML+="#Region \" Código generado por el Diseñador de Web Forms \"\n";
+sHTML+="\n";
+sHTML+="  'El Diseñador de Web Forms requiere esta llamada.\n";
+sHTML+="  <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()\n";
+sHTML+="\n";
+sHTML+="  End Sub\n";
+sHTML+="  Protected WithEvents oGrid As System.Web.UI.WebControls.DataGrid\n";
+sHTML+="  Protected WithEvents btnNew As System.Web.UI.WebControls.Button\n";
+sHTML+="  Protected WithEvents cmdBuscar As System.Web.UI.WebControls.Button\n";
+sHTML+="  Protected WithEvents txtFILTRO As System.Web.UI.WebControls.TextBox\n";
+sHTML+="  Protected WithEvents cantReg As System.Web.UI.HtmlControls.HtmlGenericControl\n";
+sHTML+="  Protected WithEvents cmdDocumentacion As System.Web.UI.WebControls.Button\n";
+sHTML+="  Protected WithEvents txtIDOculto As System.Web.UI.HtmlControls.HtmlInputHidden\n";
+sHTML+="\n";
+sHTML+="  'NOTA: el Diseñador de Web Forms necesita la siguiente declaración del marcador de posición.\n";
+sHTML+="  'No se debe eliminar o mover.\n";
+sHTML+="  Private designerPlaceholderDeclaration As System.Object\n";
+sHTML+="\n";
+sHTML+="  Private Sub Page_Init(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Init\n";
+sHTML+="    'CODEGEN: el Diseñador de Web Forms requiere esta llamada de método\n";
+sHTML+="    'No la modifique con el editor de código.\n";
+sHTML+="    InitializeComponent()\n";
+sHTML+="  End Sub\n";
+sHTML+="\n";
+sHTML+="#End Region\n";
+sHTML+="\n";
+sHTML+="  Dim o"+nomEntidad+" As New Logica."+nomEntidad+"\n";
+sHTML+="\n";
+sHTML+="  Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load\n";
+sHTML+="\n";
+sHTML+="    If Not Page.IsPostBack Then\n";
+sHTML+="      Me.LoadList()\n";
+sHTML+="    End If\n";
+sHTML+="\n";
+sHTML+="  End Sub\n";
+sHTML+="\n";
+sHTML+="  Private Sub LoadList(Optional ByVal idFiltro As String = \"\")\n";
+sHTML+="    'cargo los datos de la grilla\n";
+sHTML+="    Dim oDT As DataTable = o"+nomEntidad+".Traer(idFiltro)\n";
+sHTML+="    If Not IsNothing(oDT) Then\n";
+sHTML+="      cantReg.InnerText = \"Lista de XXX(\" & oDT.Rows.Count & \")\"\n";
+sHTML+="    'TODO: verificar el idFiltro por el campo\n";
+sHTML+="      oGrid.DataKeyField = \"idFiltro\"\n";
+sHTML+="      oGrid.DataSource = oDT\n";
+sHTML+="      oGrid.DataBind()\n";
+sHTML+="    Else\n";
+sHTML+="      cantReg.InnerText = \"Lista de XXX(0)\"\n";
+sHTML+="      	'ocultar los botones de las acciones que no se pueden hacer si no hay registros\n";
+sHTML+="    	'TODO: verificar  \n";
+sHTML+="    End If\n";
+sHTML+="\n";
+sHTML+="  End Sub\n";
+sHTML+="\n";
+sHTML+="  Private Sub oGrid_ItemDataBound(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.DataGridItemEventArgs) Handles oGrid.ItemDataBound\n";
+sHTML+="    Dim strIdFiltro As String\n";
+sHTML+="    'agrego el script a cada fila\n";
+sHTML+="    If e.Item.ItemType = ListItemType.Item Or e.Item.ItemType = ListItemType.AlternatingItem Then\n";
+sHTML+="    	'TODO: verificar en que celda oculta quedo el id para pasar al javascript  \n";
+sHTML+="      strIdFiltro = e.Item.Cells(1).Text\n";
+sHTML+="      CType(e.Item.FindControl(\"imgDelete\"), ImageButton).Attributes.Add(\"onClick\", \"javascript:return confirmDelete();\")\n";
+sHTML+="      CType(e.Item.FindControl(\"optRows\"), RadioButton).Attributes.Add(\"onClick\", \"javascript:return Selrow(this,'\" & strIdFiltro & \"');\")\n";
+sHTML+="    End If\n";
+sHTML+="\n";
+sHTML+="  End Sub\n";
+sHTML+="\n";
+sHTML+="  Private Sub oGrid_ItemCommand(ByVal source As Object, ByVal e As System.Web.UI.WebControls.DataGridCommandEventArgs) Handles oGrid.ItemCommand\n";
+sHTML+="    'al hacer clic en la imagen de la columna\n";
+sHTML+="    Dim mKey As String = oGrid.DataKeys(e.Item.ItemIndex)\n";
+sHTML+="\n";
+sHTML+="    Select Case e.CommandName.ToUpper\n";
+sHTML+="\n";
+sHTML+="      Case \"VIEW\"\n";
+sHTML+="        Response.Redirect(\"XXXDetalle.aspx?ID=\" & mKey & \"&ACTION=V\")\n";
+sHTML+="      Case \"EDIT\"\n";
+sHTML+="        Response.Redirect(\"XXXDetalle.aspx?ID=\" & mKey)\n";
+sHTML+="      Case \"DELETE\"\n";
+sHTML+="        o"+nomEntidad+".Borrar(mKey)\n";
+sHTML+="\n";
+sHTML+="        Me.LoadList()\n";
+sHTML+="\n";
+sHTML+="    End Select\n";
+sHTML+="\n";
+sHTML+="  End Sub\n";
+sHTML+="\n";
+sHTML+="  Private Sub btnNew_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnNew.Click\n";
+sHTML+="    Response.Redirect(\"XXXDetalle.aspx\")\n";
+sHTML+="  End Sub\n";
+sHTML+="\n";
+sHTML+="  Private Sub cmdBuscar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdBuscar.Click\n";
+sHTML+="    'busco la XXX con el filtro ingresado\n";
+sHTML+="    Me.LoadList(Me.txtFILTRO.Text)\n";
+sHTML+="  End Sub\n";
+sHTML+="\n";
+
+sHTML+="Private Sub InitScreen()\n";
+sHTML+="    'CargoRecuros(\"\")\n";    
+sHTML+="    'oculto los cotroles de la cabecera\n";
+sHTML+="    'MostrarOcultar(\"\", False)\n";
+sHTML+="    'busco la XXX si el id es <> \"\"\n";
+sHTML+="    Dim oDR As DataRow\n";
+sHTML+="    If IdEmpresa > 0 Then\n";
+sHTML+="      oDR = o"+nomEntidad+".Traer(IdEmpresa)\n";
+sHTML+="    End If\n"
+sHTML+="\n";
+sHTML+="    If Not oDR Is Nothing Then\n";
+sHTML+="      'cargo los valores existentes\n";
+sHTML+="      'Me.txtCuit.Text = Trim(\"\" & oDR(\"cuit\"))\n";
+sHTML+="      'Me.cboEstado"+nomEntidad+".SelectedValue = oDR(\"idEstado"+nomEntidad+"\")\n";
+sHTML+="    End If\n";
+sHTML+="  End Sub\n";
+
+sHTML+="Private Sub CargoRecuros(ByVal selector As String)\n";
+sHTML+="    'cargo recursos selectivamente\n";
+sHTML+="    Select Case selector\n";
+sHTML+="        Case \"\"\n";
+sHTML+="          Dim oDT As DataTable = Logica.cUtil.Agregar1raFila(o"+nomEntidad+".ListarCombo_Tipo"+nomEntidad+"())\n";
+sHTML+="          With Me.cboTipo"+nomEntidad+"\n";
+sHTML+="            .DataValueField = \"ID\"\n";
+sHTML+="            .DataTextField = \"DESCRIPCION\"\n";
+sHTML+="            .DataSource = oDT\n";
+sHTML+="            .DataBind()\n";
+sHTML+="          End With\n";
+sHTML+="      End Select\n";
+sHTML+="  End Sub\n";
+sHTML+="\n";
+sHTML+="  Private Sub MostrarOcultar(ByVal selector As String, ByVal valor As Boolean)\n";
+sHTML+="    'oculto o muestro selectivamente\n";
+sHTML+="    Select Case selector.ToUpper\n";
+sHTML+="      Case \"\"\n";
+sHTML+="        'van siempre deshabilitados\n";
+sHTML+="        'Me.txtCuit.Enabled = valor\n";
+sHTML+="    End Select\n";
+sHTML+="  End Sub\n";
+
+sHTML+="End Class\n";
+
+sHTML+="-------------------------------- FIN  .VB --------------------------------\n";
+	window.status='Finalizado generarListaAspx';
+	return sHTML;
+}
+
+function generarDetalleAspx(mtzFilas)
+{//Genera  y retorna el codigo : clases  vb.Net
+//in
+//	mtzFilas: las filas que se seleccionaron
+window.status='Comienza generarDetalleAspx';
+	var  oCbo= document.getElementById("cboTablas");
+	var nomEntidad = oCbo.item(oCbo.selectedIndex).text;
+	var i;
+	var nombre='';
+	var tipoDato='';
+	var longitud=0;
+	var esNulo='';
+	//secciones
+	var sHTML='';
+	var sFILAS='';
+	var sDECLARA='';
+	var sPASA='';
+	var sDISABLE='';
+	var sVALOR='';
+	
+	for (i=0;i < mtzFilas.length;i++)
+	{ //por cada fila recupero el valor
+		nombre=mtzFilas[i].cells[1].innerText;
+		tipoDato=mtzFilas[i].cells[2].innerText;
+		longitud=mtzFilas[i].cells[3].innerText;
+		esNulo=mtzFilas[i].cells[4].innerText;
+		//Genero  la salida
+		//Columnas de la grilla
+		sFILAS+="					<tr>\n";	
+		sFILAS+="						<td>"+nombre+"</td>\n";	
+		sFILAS+="						<td>\n";	
+		sFILAS+="							<asp:textbox id=\"txt"+nombre+"\" runat=\"server\" readonly=\"False\" maxlength=\""+longitud+"\"></asp:textbox>\n";
+		sFILAS+="							<asp:requiredfieldvalidator id=\"req"+nombre+"\" runat=\"server\" display=\"None\" controltovalidate=\"txt"+nombre+"\" errormessage=\"El dato "+nombre+" es requerido.\"></asp:requiredfieldvalidator>\n";
+		sFILAS+="						</td>\n";	
+		sFILAS+="					</tr>\n";	
+		
+		sDECLARA+="  Protected WithEvents req"+nombre+" As System.Web.UI.WebControls.RequiredFieldValidator\n";	
+		sDECLARA+="  Protected WithEvents txt"+nombre+" As System.Web.UI.WebControls.TextBox\n";
+		
+		sPASA+="     Me.txt"+nombre+".Text = Trim(\"\" & oDR(\""+nombre+"\"))\n";
+		
+		sDISABLE+="    Me.txt"+nombre+".Enabled = False\n";	
+		
+		sVALOR+=" If Me.txt"+nombre+".Text <> \"\" Then o"+nomEntidad+"."+nombre+"=Me.txt"+nombre+".Text\n";	
+	}
+sHTML+="-------------------------------- INICIO HTML --------------------------------\n";	
+sHTML+="<HTML>\n";	
+sHTML+="	<HEAD>\n";	
+sHTML+="		<title>Detalle </title>\n";	
+sHTML+="		<LINK href=\"../Styles.css\" type=\"text/css\" rel=\"stylesheet\">\n";	
+sHTML+="	</HEAD>\n";	
+sHTML+="	<body>\n";	
+sHTML+="		<form id=\"Form1\" method=\"post\" runat=\"server\">\n";	
+sHTML+="			<div class=\"divTitle\">Detalle de XXX</div>\n";	
+sHTML+="			<div><asp:validationsummary id=\"ValidationSummary1\" runat=\"server\" headertext=\"<b>Errores en el formulario.</b>\" cssclass=\"errorBox\"></asp:validationsummary></div>\n";	
+sHTML+="			<div><asp:label id=\"lblError\" runat=\"server\" cssclass=\"errorBox\" width=\"100%\" visible=\"False\">Mensaje de error personal</asp:label></div>\n";	
+sHTML+="			<div id=\"datos\">\n";	
+sHTML+="				<table cellSpacing=\"4\" cellPadding=\"0\" width=\"100%\" border=\"0\">\n";	
+
+sHTML+=sFILAS;
+
+sHTML+="				</table>\n";	
+sHTML+="			</div>\n";	
+sHTML+="			<div id=\"divAcciones\" class=\"divAcciones\"><asp:button id=\"btnSave\" runat=\"server\" text=\"Guardar\"></asp:button>&nbsp;<asp:button id=\"btnCancel\" runat=\"server\" text=\"Cancelar\" causesvalidation=\"False\"></asp:button></div>\n";	
+sHTML+="			<!-- ### CONTENIDO AQUI ### --></form>\n";	
+sHTML+="	</body>\n";	
+sHTML+="</HTML>\n";	
+sHTML+="-------------------------------- FIN HTML --------------------------------\n";	
+
+sHTML+="-------------------------------- INICIO  .VB --------------------------------\n";
+sHTML+="  Inherits System.Web.UI.Page\n";	
+sHTML+="\n";	
+sHTML+="#Region \" Código generado por el Diseñador de Web Forms \"\n";	
+sHTML+="\n";	
+sHTML+="<System.Diagnostics.DebuggerStepThrough()> _\n";	
+sHTML+="  Private Sub InitializeComponent()\n";	
+sHTML+="\n";	
+sHTML+="  End Sub\n";	
+sHTML+="\n";	
+sHTML+="  Protected WithEvents ValidationSummary1 As System.Web.UI.WebControls.ValidationSummary\n";	
+sHTML+=sDECLARA;
+sHTML+="  Protected WithEvents btnSave As System.Web.UI.WebControls.Button\n";	
+sHTML+="  Protected WithEvents btnCancel As System.Web.UI.WebControls.Button\n";	
+sHTML+="  Protected WithEvents lblError As System.Web.UI.WebControls.Label\n";	
+sHTML+="  Private designerPlaceholderDeclaration As System.Object\n";	
+sHTML+="\n";	
+sHTML+="  Private Sub Page_Init(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Init\n";	
+sHTML+="    InitializeComponent()\n";	
+sHTML+="  End Sub\n";	
+sHTML+="\n";	
+sHTML+="#End Region\n";	
+sHTML+="\n";	
+sHTML+="  Dim o"+nomEntidad+" As New Logica.c"+nomEntidad+"\n";	
+sHTML+="\n";	
+sHTML+="  Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load\n";	
+sHTML+="\n";	
+sHTML+="    If Not Page.IsPostBack Then\n";	
+sHTML+="      If Not Request.QueryString(\"ID\") Is Nothing Then\n";	
+sHTML+="				ViewState(\"idclave\") = Request.QueryString(\"ID\").ToString\n";	
+sHTML+="				o"+nomEntidad+".idClave Val(ViewState(\"idclave\"))\n";	
+sHTML+="        txtID.Text = Request.QueryString(\"ID\")\n";
+sHTML+="        If Not Request.QueryString(\"Action\") Is Nothing AndAlso _\n";	
+sHTML+="               Request.QueryString(\"Action\").ToString = \"V\" Then\n";	
+sHTML+="          Me.DisableControls()\n";	
+sHTML+="        End If\n";	
+sHTML+="      End If\n";	
+sHTML+="      Me.InitScreen()\n";	
+sHTML+="    End If\n";	
+sHTML+="\n";	
+sHTML+="  End Sub\n";	
+sHTML+="\n";	
+sHTML+="  Private Sub InitScreen()\n";	
+sHTML+="    '''CargoRecuros(\"cboTipo"+nomEntidad+"\")\n";	
+sHTML+="\n";	
+sHTML+="    'busco si el id es <> \"\"\n";	
+sHTML+="    Dim oDR As DataRow\n";	
+sHTML+="    If txtID.Text <> \"\" Then\n";	
+sHTML+="      oDR = o"+nomEntidad+".Traer(CType(txtID.Text, Integer))\n";	
+sHTML+="    End If\n";	
+sHTML+="\n";	
+sHTML+="    If Not oDR Is Nothing Then\n";	
+sHTML+="      'cargo los valores existentes\n";	
+sHTML+=sPASA;
+sHTML+="\n";	
+sHTML+="    Else\n";	
+sHTML+="      'precargo los valores para un registro nuevo\n";	
+sHTML+="      '''Me.cboEstado"+nomEntidad+".SelectedValue = Logica.estado"+nomEntidad+".inicial\n";	
+sHTML+="    End If\n";	
+sHTML+="    'van siempre deshabilitados\n";	
+sHTML+="    '''Me.cboEstado"+nomEntidad+".Enabled = False\n";	
+sHTML+="  End Sub\n";	
+sHTML+="\n";	
+sHTML+="  Private Sub DisableControls()\n";	
+sHTML+="    'desabilito los controles \n";	
+sHTML+=sDISABLE;
+sHTML+="    btnSave.Enabled = False\n";	
+sHTML+="  End Sub\n";	
+sHTML+="\n";	
+sHTML+="  Private Sub btnSave_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSave.Click\n";	
+sHTML+="    Dim strPosibleError As String = \"\"\n";	
+sHTML+="\n";	
+sHTML+=sVALOR;
+sHTML+="    If Val(txtID.Text) > 0 Then\n";	
+sHTML+="      'Ya existe en la Base de datos\n";	
+sHTML+="      'modifico los valores\n";	
+sHTML+="      o"+nomEntidad+".Editar()\n";	
+sHTML+="    Else\n";	
+sHTML+="      'antes de agregar verifico si existe en la BD\n";	
+sHTML+="      If o"+nomEntidad+".Existe(Me.txtCuit.Text) = True Then\n";	
+sHTML+="        strPosibleError = \"Ya existe una "+nomEntidad+" con ese CUIT\"\n";	
+sHTML+="        Me.ColocarMensaje(strPosibleError)\n";	
+sHTML+="      Else\n";	
+sHTML+="        'agrego el nuevo registro\n";	
+sHTML+="        strPosibleError = o"+nomEntidad+".Agregar()\n";	
+sHTML+="        If strPosibleError <> \"\" Then\n";	
+sHTML+="          Me.ColocarMensaje(\"Error al agregar datos\")\n";	
+sHTML+="        End If\n";	
+sHTML+="      End If\n";	
+sHTML+="    End If\n";	
+sHTML+="\n";	
+sHTML+="    'si todo esta ok regreso al listado\n";	
+sHTML+="    If strPosibleError = \"\" Then Response.Redirect(\""+nomEntidad+"Lista.aspx\")\n";	
+sHTML+="  End Sub\n";	
+sHTML+="\n";	
+sHTML+="  Private Sub btnCancel_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCancel.Click\n";	
+sHTML+="    Response.Redirect(\""+nomEntidad+"Lista.aspx\")\n";	
+sHTML+="  End Sub\n";	
+sHTML+="\n";	
+sHTML+="  Private Sub CargoRecuros(ByVal selector As String)\n";	
+sHTML+="    ''''cargo recursos selectivamente\n";	
+sHTML+="    '''Select Case selector\n";	
+sHTML+="    '''  Case \"cboTipo"+nomEntidad+"\"\n";	
+sHTML+="    '''    Dim oDT As DataTable = Logica.cUtil.Agregar1raFila(o"+nomEntidad+".ListarCombo_Tipo"+nomEntidad+"())\n";	
+sHTML+="    '''    With Me.cboTipo"+nomEntidad+"\n";	
+sHTML+="    '''      .DataValueField = \"ID\"\n";	
+sHTML+="    '''      .DataTextField = \"DESCRIPCION\"\n";	
+sHTML+="    '''      .DataSource = oDT\n";	
+sHTML+="    '''      .DataBind()\n";	
+sHTML+="    '''    End With\n";	
+sHTML+="    '''End Select\n";	
+sHTML+="  End Sub\n";	
+sHTML+="  Private Sub ColocarMensaje(ByVal texto As String)\n";	
+sHTML+="    'coloco el mensaje de error\n";	
+sHTML+="    lblError.Text = texto\n";	
+sHTML+="    lblError.Visible = True\n";	
+sHTML+="  End Sub\n";	
+sHTML+="End Class\n";	
+sHTML+="-------------------------------- FIN  .VB --------------------------------\n";
+
+	window.status='Finalizado generarDetalleAspx';
+	return sHTML;
+}
+
+
+</script>
+</HEAD>
+<BODY onload="init();">
+
+<TABLE cellSpacing="1" cellPadding="1" width="100%" border="1">
+  
+  <TR>
+    <TD>Tabla:</TD>
+    <TD>Columnas de la tabla elegida:</TD></TR>
+  <TR>
+    <TD>
+		<SELECT id="cboTablas" name="cboTablas" onchange="ArmarGrilla();"> 
+			<OPTION ></OPTION>
+		</SELECT>
+	</TD>
+    <TD>
+		<div id="oGrilla"></div>
+	</TD>
+	</TR>
+ </TABLE>
+ <!--Botonera-->
+ <input type="button" id="cmdGenerar_VBNet" name="cmdGenerar_VBNet" value="Generar Clases vbNet" onclick="generar(1);" > 
+ <input type="button" id="cmdGenerar_ListaASPX" name="cmdGenerar_ListaASPX" value="Generar listaAspx" onclick="generar(2);" > 
+ <input type="button" id="cmdGenerar_DetalleASPX" name="cmdGenerar_DetalleASPX" value="Generar DetalleAspx" onclick="generar(3);" > 
+ <!--FIN Botonera-->
+ <TEXTAREA id="txtout" name="txtout" style="width:100%;" rows="70" ></TEXTAREA>
+</BODY>
+</HTML>
