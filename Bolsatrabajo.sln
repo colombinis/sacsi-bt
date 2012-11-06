@@ -1,5 +1,5 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Bolsatrabajo", "Bolsatrabajo.vbproj", "{19C6005F-38BF-4651-950B-7948735D24AE}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ProxyServer", "ProxyServer\ProxyServer.vbproj", "{FF2F0A55-77FF-4C51-B729-5AF82496FED3}"

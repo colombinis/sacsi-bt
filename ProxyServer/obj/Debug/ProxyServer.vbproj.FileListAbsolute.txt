@@ -5,3 +5,7 @@ C:\inetpub\wwwroot\bolsaTrabajo\ProxyServer\obj\Debug\ResolveAssemblyReference.c
 C:\inetpub\wwwroot\bolsaTrabajo\ProxyServer\obj\Debug\ProxyServer.dll
 C:\inetpub\wwwroot\bolsaTrabajo\ProxyServer\obj\Debug\ProxyServer.xml
 C:\inetpub\wwwroot\bolsaTrabajo\ProxyServer\obj\Debug\ProxyServer.pdb
+C:\_proyectosvs2012\old\ProxyServer\bin\ProxyServer.dll
+C:\_proyectosvs2012\old\ProxyServer\bin\ProxyServer.pdb
+C:\_proyectosvs2012\old\ProxyServer\obj\Debug\ProxyServer.dll
+C:\_proyectosvs2012\old\ProxyServer\obj\Debug\ProxyServer.pdb
